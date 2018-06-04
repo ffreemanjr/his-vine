@@ -1,0 +1,14 @@
+{
+  "name": "his-vine",
+  "version": "1.0.0",
+  "description": "His Vine Free SDA Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss /styles/styles.css -w"
+  },
+  "author": "Foyah Z. Freeman, Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

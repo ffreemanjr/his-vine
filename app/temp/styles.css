@@ -1,0 +1,203 @@
+/* ================= BROWSER RESET ===================== */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+/* ================= GLOBAL STYLES ===================== */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.7;
+  font-weight: 400;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* ============== HEADER SECTION BEGINS HERE ================== */
+.main-header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/antiquity.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; }
+  .main-header__brand-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .main-header__branding {
+    height: 10rem; }
+  .main-header__text-box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .main-header__primary {
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /*Prevents the shake at the end of the title and subtitle animation.*/
+    margin-bottom: 2rem; }
+  .main-header__primary-title {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.24rem;
+    letter-spacing: .2rem;
+    -webkit-animation: moveInLeft 1s ease-out;
+    animation: moveInLeft 1s ease-out;
+    margin-bottom: 1rem;
+    min-width: 35rem; }
+  .main-header_primary-subtitle {
+    display: block;
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin: 0;
+    -webkit-animation: moveInRight 1s ease-out;
+    animation: moveInRight 1s ease-out; }
+
+@media (min-width: 33.125rem) {
+  .main-header__primary-title {
+    font-size: 2.88rem;
+    letter-spacing: .5rem;
+    min-width: 60rem; } }
+
+@media (min-width: 80rem) {
+  .main-header__primary-title {
+    font-size: 3.2rem;
+    letter-spacing: .7rem;
+    min-width: 70rem; } }
+
+@media (min-width: 75rem) {
+  .main-header__primary-title {
+    font-size: 5.6rem;
+    letter-spacing: 1rem; } }
+
+@media (min-width: 33.125rem) {
+  .main-header__primary-subtitle {
+    font-size: 1.92rem;
+    letter-spacing: .5rem; } }
+
+@media (min-width: 50rem) {
+  .main-header__primary-subtitle {
+    font-size: 3.2rem;
+    letter-spacing: .7rem;
+    min-width: 70rem; } }
+
+@media (min-width: 75rem) {
+  .main-header__primary-subtitle {
+    font-size: 5.6rem;
+    letter-spacing: 1rem; } }
+
+@-webkit-keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@-webkit-keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  display: inline-block;
+  font-size: 1.92rem;
+  font-weight: 300;
+  border-radius: 10rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  position: relative;
+  line-height: normal; }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 10px 20px rgba(102, 51, 153, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.5) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(102, 51, 153, 0.2); }
+
+.btn--orange {
+  background-color: #d59541;
+  color: #fff; }
+  .btn--orange::after {
+    background-color: #d59541; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards; }
+
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(60px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(6rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
