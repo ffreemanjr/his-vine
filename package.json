@@ -4,7 +4,7 @@
   "description": "His Vine Free SDA Landing Page",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss /styles/styles.css -w"
+    "compile:sass": "node-sass sass/main.scss ./app/assets/styles/styles.css -w"
   },
   "author": "Foyah Z. Freeman, Jr.",
   "license": "ISC",
