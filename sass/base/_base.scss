@@ -11,14 +11,11 @@
 /* ================= GLOBAL STYLES ===================== */
 
 html {
+  // This defines what 1rem is.
   font-size: 62.5%;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: $color-grey; // font-size: 16px;
-  line-height: 1.7;
-  font-weight: 400;
   box-sizing: border-box;
 }
 
