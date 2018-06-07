@@ -82,8 +82,8 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: #fff;
-  padding-top: 6rem; }
+  padding-top: 6rem;
+  letter-spacing: .3rem; }
   .heading-secondary::after {
     content: "";
     display: block;
@@ -98,7 +98,8 @@ body {
 .heading-tertiary {
   font-size: 1.65rem;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: .2rem; }
 
 .paragraph {
   font-size: 1.6rem; }
@@ -108,10 +109,16 @@ body {
 .u-center-text {
   text-align: center; }
 
-.u-margin-bottom-4 {
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
-.u-heading-tertiary-white {
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-font-white {
   color: #fff; }
 
 /* ============ BUTTON STYLES BEGIN =============== */
@@ -214,6 +221,12 @@ body {
 
 .section-welcome {
   background-color: #663399; }
+
+.pulpit {
+  border: 2px solid white; }
+
+.section-playlist {
+  background-color: #eee; }
 
 @media (min-width: 33.125rem) {
   .main-header__primary-title {
