@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: $color-grey; // font-size: 16px;
   line-height: 1.7;
-  font-weight: 400;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
 }
 
@@ -30,7 +30,7 @@ body {
 
   &__primary-subtitle {
     display: block;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.6rem;
     letter-spacing: .2rem;
     animation: moveInRight 1s ease-out;
@@ -41,7 +41,7 @@ body {
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
   padding-top: 6rem;
   letter-spacing: .3rem;
 
