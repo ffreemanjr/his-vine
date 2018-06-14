@@ -8,5 +8,34 @@
 }
 
 .section-playlist {
-  background-color: #eee;
+  background-color: #eee; 
+}
+
+.study-grid {
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem 30rem;
+  grid-gap: 1.6rem;
+  grid-template-areas: "study1 study2 study3 side"
+                        "study1 study2 study3 side"
+                        "study1 study2 study3 side";
+}
+
+.study1 {
+ grid-column: 1 / 2;
+ grid-area: study1;
+ background-color: red;
+}
+
+.study2 {
+  grid-area: study2;
+  background-color: blue;
+}
+.study3 {
+ grid-area: study3;
+ background-color: green;
+}
+
+aside {
+  grid-area: side;
+  background-color: orangered;
 }
