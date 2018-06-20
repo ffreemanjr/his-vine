@@ -21,8 +21,8 @@ body {
     display: block;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 2.5rem;
-    letter-spacing: .2rem;
+    font-size: 5.6rem;
+    letter-spacing: 1rem;
     animation: moveInLeft 1s ease-out;
     margin-bottom: 1rem;
     min-width: 35rem;
@@ -31,8 +31,9 @@ body {
   &__primary-subtitle {
     display: block;
     font-weight: 300;
-    font-size: 1.6rem;
-    letter-spacing: .2rem;
+    font-style: italic;
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
     animation: moveInRight 1s ease-out;
   }
 }
