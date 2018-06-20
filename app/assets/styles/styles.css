@@ -229,25 +229,51 @@ body {
 .section-playlist {
   background-color: #eee; }
 
-.study-grid {
-  display: grid;
-  grid-template-columns: 30rem 30rem 30rem 30rem;
-  grid-gap: 1.6rem;
-  grid-template-areas: "study1 study2 study3 side" "study1 study2 study3 side" "study1 study2 study3 side"; }
+.container-1 {
+  display: flex; }
+
+.section-study {
+  background-color: blue;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/bible-study.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white; }
+
+.container-1 div,
+.sidebar div {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 0 1rem 0 0;
+  flex-wrap: wrap; }
+
+.study {
+  display: flex;
+  color: white;
+  flex: 3;
+  justify-content: space-around; }
+  .study div {
+    max-width: 24rem;
+    min-width: 21rem; }
 
 .study1 {
-  grid-column: 1 / 2;
-  grid-area: study1;
-  background-color: red; }
+  background-color: brown; }
 
 .study2 {
-  grid-area: study2;
-  background-color: blue; }
-
-.study3 {
-  grid-area: study3;
   background-color: green; }
 
-aside {
-  grid-area: side;
-  background-color: orangered; }
+.study3 {
+  background-color: purple; }
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: red;
+  color: white;
+  flex: 1;
+  align-content: center; }
+  .sidebar div {
+    min-width: 21rem;
+    max-width: 24rem;
+    align-items: center; }
