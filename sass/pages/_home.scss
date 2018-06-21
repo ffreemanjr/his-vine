@@ -22,23 +22,24 @@
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    padding: 4rem;
 }
 
 .container-1 div, 
-.sidebar div {
-  border: 1px solid black;
+.cta div {
+  border: 1px solid white;
   padding: 1rem;
-  margin: 0 1rem 0 0;
+  margin: 1rem;
   flex-wrap: wrap; 
 }
 
 .study {
   display: flex;
-  // background-color: blue;
+  background-color: blue;
   color: white;
   flex: 3;
   // min-width: 6rem;
-  justify-content: space-around;
+  justify-content: space-between;
 
   & div {
     max-width: 24rem;
@@ -59,52 +60,37 @@
   
 }
 
-.sidebar {
+.study4 {
+  background-color: goldenrod;
+  
+}
+
+.donate {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: red;
   color: white;
   flex: 1;
   align-content: center;
+  padding-top: 4rem;
 
   & div {
     min-width: 21rem;
     max-width: 24rem;
     align-items: center;
   }
+
+  & .publishing,
+  & .publishing-description,
+  & .publishing-announcement {
+    max-width: 40px;
+    min-width: 28rem;
+  }
+
+  
 }
 
 
 
-
-
-// .study-grid {
-//   display: grid;
-//   grid-template-columns: 30rem 30rem 30rem 30rem;
-//   grid-gap: 1.6rem;
-//   grid-template-areas: "study1 study2 study3 side"
-//                         "study1 study2 study3 side"
-//                         "study1 study2 study3 side";
-// }
-
-// .study1 {
-//  grid-column: 1 / 2;
-//  grid-area: study1;
-//  background-color: red;
-// }
-
-// .study2 {
-//   grid-area: study2;
-//   background-color: blue;
-// }
-// .study3 {
-//  grid-area: study3;
-//  background-color: green;
-// }
-
-// aside {
-//   grid-area: side;
-//   background-color: orangered;
-// }

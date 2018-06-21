@@ -237,20 +237,22 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/bible-study.jpeg");
   background-attachment: fixed;
   background-size: cover;
-  color: white; }
+  color: white;
+  padding: 4rem; }
 
 .container-1 div,
-.sidebar div {
-  border: 1px solid black;
+.cta div {
+  border: 1px solid white;
   padding: 1rem;
-  margin: 0 1rem 0 0;
+  margin: 1rem;
   flex-wrap: wrap; }
 
 .study {
   display: flex;
+  background-color: blue;
   color: white;
   flex: 3;
-  justify-content: space-around; }
+  justify-content: space-between; }
   .study div {
     max-width: 24rem;
     min-width: 21rem; }
@@ -264,16 +266,25 @@ body {
 .study3 {
   background-color: purple; }
 
-.sidebar {
+.study4 {
+  background-color: goldenrod; }
+
+.donate {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: red;
   color: white;
   flex: 1;
-  align-content: center; }
-  .sidebar div {
+  align-content: center;
+  padding-top: 4rem; }
+  .donate div {
     min-width: 21rem;
     max-width: 24rem;
     align-items: center; }
+  .donate .publishing,
+  .donate .publishing-description,
+  .donate .publishing-announcement {
+    max-width: 40px;
+    min-width: 28rem; }
