@@ -103,9 +103,9 @@ body {
   letter-spacing: .2rem; }
 
 .paragraph {
-  font-size: 1.6rem; }
+  font-size: 2rem; }
   .paragraph:not(:last-child) {
-    margin-bottom: 3rem; }
+    margin-bottom: 1.8rem; }
 
 .u-center-text {
   text-align: center; }
@@ -121,6 +121,9 @@ body {
 
 .u-font-white {
   color: #fff; }
+
+.u-font-grey {
+  color: #333; }
 
 /* ============ BUTTON STYLES BEGIN =============== */
 .btn:link, .btn:visited {
@@ -222,6 +225,10 @@ body {
 
 .section-welcome {
   background-color: #663399; }
+  .section-welcome .section-welcome__info,
+  .section-welcome .section-study__info,
+  .section-welcome .section-donate--cta__info {
+    width: 80%; }
 
 .pulpit {
   border: 2px solid white; }
@@ -249,7 +256,6 @@ body {
 
 .study {
   display: flex;
-  background-color: blue;
   color: white;
   flex: 3;
   justify-content: space-between; }
@@ -274,17 +280,15 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: red;
-  color: white;
   flex: 1;
   align-content: center;
   padding-top: 4rem; }
   .donate div {
-    min-width: 21rem;
-    max-width: 24rem;
-    align-items: center; }
+    max-width: 40px;
+    min-width: 28rem; }
   .donate .publishing,
   .donate .publishing-description,
   .donate .publishing-announcement {
     max-width: 40px;
-    min-width: 28rem; }
+    min-width: 28rem;
+    border: 1px solid #777; }

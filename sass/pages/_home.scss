@@ -1,6 +1,11 @@
 .section-welcome {
   background-color: $color-primary-purple;
   
+  & .section-welcome__info,
+  & .section-study__info,
+  & .section-donate--cta__info {
+      width: 80%;
+  }
 }
 
 .pulpit {
@@ -35,7 +40,6 @@
 
 .study {
   display: flex;
-  background-color: blue;
   color: white;
   flex: 3;
   // min-width: 6rem;
@@ -70,16 +74,14 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: red;
-  color: white;
   flex: 1;
   align-content: center;
   padding-top: 4rem;
 
   & div {
-    min-width: 21rem;
-    max-width: 24rem;
-    align-items: center;
+    max-width: 40px;
+    min-width: 28rem;
+    // align-items: center;
   }
 
   & .publishing,
@@ -87,7 +89,10 @@
   & .publishing-announcement {
     max-width: 40px;
     min-width: 28rem;
+    border: 1px solid #777;
   }
+
+  
 
   
 }
