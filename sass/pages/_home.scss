@@ -4,7 +4,7 @@
   & .section-welcome__info,
   & .section-study__info,
   & .section-donate--cta__info {
-      width: 80%;
+      width: 70%;
   }
 }
 
@@ -20,54 +20,17 @@
 //   display: flex;
 // }
 
-// .section-study {
-//     background-color: blue;
-//     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-//     url("/app/assets/img/bible-study.jpeg");
-//     background-attachment: fixed;
-//     background-size: cover;
-//     color: white;
-//     padding: 4rem;
-// }
+.section-study {
+  background-color: rgb(107, 107, 224);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("/app/assets/img/bible-study.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  padding: 4rem;
+}
 
-// .container-1 div, 
-// .cta div {
-//   border: 1px solid white;
-//   padding: 1rem;
-//   margin: 1rem;
-//   flex-wrap: wrap; 
-// }
 
-// .study {
-//   display: flex;
-//   color: white;
-//   flex: 3;
-//   // min-width: 6rem;
-//   justify-content: space-between;
-
-//   & div {
-//     max-width: 24rem;
-//     min-width: 21rem;
-//   }
-// }
-
-// .study1 {
-//   background-color: brown;
-// }
-
-// .study2 {
-//   background-color: green;
-// }
-
-// .study3 {
-//   background-color: purple;
-  
-// }
-
-// .study4 {
-//   background-color: goldenrod;
-  
-// }
 
 // .donate {
 //   display: flex;

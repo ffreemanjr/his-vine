@@ -1,7 +1,8 @@
 /* ============= MAIN HEADER BEGINS HERE ============== */
 .main-header {
   height: 100vh;
-  background-image: linear-gradient(rgba($color-black, 0.8), rgba($color-black, 0.8)), url('/app/assets/img/antiquity.png');
+  background-image: linear-gradient(
+    rgba($color-black, 0.8), rgba($color-black, 0.8)), url('/app/assets/img/antiquity.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
