@@ -42,7 +42,7 @@ body {
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 6rem;
   letter-spacing: .3rem;
 
@@ -51,7 +51,7 @@ body {
     display: block;
     width: 20rem;
     height: .2rem;
-    background-color: $color-white;
+    background-color: $color-primary-orange;
     margin: 0 auto;
     margin-top: 3rem;
     margin-bottom: 4rem;
@@ -60,7 +60,7 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 1.65rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -71,6 +71,30 @@ body {
 
   &:not(:last-child) {
     margin-bottom: 1.8rem;
+  }
+}
+
+.btn-text {
+  margin-top: .4rem;
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $color-primary-orange;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: .1rem solid $color-primary-orange;
+    padding: .3rem;
+    transition: all .2s;
+  }
+  &:hover {
+    background-color: $color-primary-orange;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, .15);
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: 0 1rem 2rem rgba($color-black, .15);
+    transform: translateY(0);
   }
 }
 

@@ -1,0 +1,23 @@
+.study-box {
+  background-color: rgba($color-primary-purple-light, .8);
+  font-size: 1.6rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5 4rem rgba($color-white, .15);
+  transition: transform .3s;
+
+  &__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-orange-light, $color-primary-orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+ }
+ 
+  &:hover {
+    transform: translateY(-2.5rem) scale(1.08);
+  }
+}
