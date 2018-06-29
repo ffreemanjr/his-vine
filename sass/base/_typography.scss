@@ -96,6 +96,18 @@ body {
     box-shadow: 0 1rem 2rem rgba($color-black, .15);
     transform: translateY(0);
   }
+
+  &--white {
+    color: grey;
+    &:hover {
+      background-color: $color-white;
+      color: $color-grey;
+      box-shadow: 0 1rem 2rem rgba($color-black, .15);
+      transform: translateY(-2px);
+    }
+  }
+
+ 
 }
 
 // @media (min-width: 33.125rem) {
