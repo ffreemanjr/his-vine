@@ -12,14 +12,6 @@
   border: 2px solid white;
 }
 
-// .section-playlist {
-//   background-color: #eee; 
-// }
-
-// .container-1 {
-//   display: flex;
-// }
-
 .section-study {
   background-color: rgb(107, 107, 224);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -30,31 +22,8 @@
   padding: 4rem;
 }
 
-
-
-// .donate {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   flex-wrap: wrap;
-//   flex: 1;
-//   align-content: center;
-//   padding-top: 4rem;
-
-//   & div {
-//     max-width: 40px;
-//     min-width: 28rem;
-//     // align-items: center;
-//   }
-
-//   & .publishing,
-//   & .publishing-description,
-//   & .publishing-announcement {
-//     max-width: 40px;
-//     min-width: 28rem;
-//     border: 1px solid #777;
-//   }
-// }
-
-
+.section-donate {
+  background-color: #eee;
+  padding: 4rem 4rem 8rem 4rem;
+}
 

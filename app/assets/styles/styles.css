@@ -199,6 +199,18 @@ body {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards; }
 
+.donate-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 1.6rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5 4rem rgba(255, 255, 255, 0.15);
+  transition: transform .3s; }
+  .donate-box:hover {
+    transform: translateY(-2.5rem) scale(1.08); }
+
 .study-box {
   background-color: rgba(151, 98, 204, 0.8);
   font-size: 1.6rem;
@@ -283,3 +295,7 @@ body {
   background-size: cover;
   color: white;
   padding: 4rem; }
+
+.section-donate {
+  background-color: #eee;
+  padding: 4rem 4rem 8rem 4rem; }
