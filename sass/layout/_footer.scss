@@ -1,0 +1,32 @@
+.main-footer {
+  background-color: #231E18;
+  color: $color-white;
+  padding: 6rem;
+  font-size: 1.6rem;
+
+  &__content--heading {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+
+  }  
+}
+
+.copy-footer {
+  background-color: #111;
+  color: white;
+  font-size: 1.6rem;
+  padding-top: 3rem;
+
+  & .social-links {
+    color: white;
+
+    &__items {
+      display: inline-block;
+    }
+  } 
+}
+
+.footer-links:links,
+.footer-links:visited {
+  color: white;
+}
