@@ -283,6 +283,29 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
+.main-footer {
+  background-color: #231E18;
+  color: #fff;
+  padding: 6rem;
+  font-size: 1.6rem; }
+  .main-footer__content--heading {
+    text-transform: uppercase;
+    letter-spacing: .2rem; }
+
+.copy-footer {
+  background-color: #111;
+  color: white;
+  font-size: 1.6rem;
+  padding-top: 3rem; }
+  .copy-footer .social-links {
+    color: white; }
+    .copy-footer .social-links__items {
+      display: inline-block; }
+
+.footer-links:links,
+.footer-links:visited {
+  color: white; }
+
 /* ============= MAIN HEADER BEGINS HERE ============== */
 .main-header {
   height: 100vh;
