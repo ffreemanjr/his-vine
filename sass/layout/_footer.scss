@@ -1,32 +1,122 @@
 .main-footer {
-  background-color: #231E18;
-  color: $color-white;
-  padding: 6rem;
-  font-size: 1.6rem;
+  background-color: black;
+  color: white;
+  padding: 3rem;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
 
-  &__content--heading {
+  &__logo {
+    width: 10.7rem;
+    height: auto;
+  }
+
+  &__heading {
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
+    font-weight: normal;
+  }
 
-  }  
-}
+  &__paragraph {
+    color: $color-white;
 
-.copy-footer {
-  background-color: #111;
-  color: white;
-  font-size: 1.6rem;
-  padding-top: 3rem;
-
-  & .social-links {
-    color: white;
-
-    &__items {
-      display: inline-block;
+    &--address {
+      text-indent: 15px;
     }
-  } 
+  }
+
+  & a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
-.footer-links:links,
-.footer-links:visited {
-  color: white;
+.testing {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: space-between;
 }
+
+.flex-container {
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+}
+
+// .flex-container {
+//   width: 50%;
+//   margin: 0 auto;
+//   display: flex;
+//   background-color: goldenrod;
+//   justify-content: space-between;
+
+// }
+
+// .sub-footer__social-links--icons {
+//   display: inline-block;
+
+  
+// }
+
+// .sub-footer__social {
+//   justify-items: flex-end;
+// }
+
+// .sub-footer {
+//   // background-color: $color-grey;
+//   // display: flex;
+//   // justify-content: space-between;
+//   // padding-top: 3rem;
+//   // padding-bottom: 3rem;
+//   // margin: 0 auto;
+
+  
+//   background-color: goldenrod;
+
+
+//   &__copyright {
+//     color: $color-white;
+//     font-size: 1.4rem;
+//     // margin-left: 10rem;
+//   }
+
+//   &__social-links--icons {
+//     display: inline-block;
+//     color: $color-white;
+//     // margin-right: 3rem;
+//     align-items: flex-end;
+
+//     & a:link,
+//     & a:visited {
+//       color: $color-white;
+//       font-size: 1.4rem;      
+//     }
+//   }
+
+// }
+
+
+// .copy-footer {
+//   background-color: #111;
+//   color: white;
+//   font-size: 1.5rem;
+//   padding-top: 3rem;
+
+//   & .social-links {
+//     color: white;
+
+//     &__items {
+//       display: inline-block;
+//     }
+//   } 
+
+//   &:after {
+//     content: "";
+//     display: inline;
+//     padding-right: 1px;
+//   }
+// }
+
+// .footer-links:links,
+// .footer-links:visited {
+//   color: white;
+// }
