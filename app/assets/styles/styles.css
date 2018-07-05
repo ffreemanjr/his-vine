@@ -304,15 +304,28 @@ body {
     color: white;
     text-decoration: none; }
 
-.testing {
-  background-color: goldenrod;
+.sub-footer {
+  background-color: #0f0a0a;
+  text-align: center;
+  color: #fff;
   display: flex;
-  justify-content: space-between; }
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem; }
+  .sub-footer__copyright {
+    padding-left: 8rem; }
+  .sub-footer__social-links {
+    padding-right: 8rem; }
 
-.flex-container {
-  background-color: purple;
+.sub-footer__social-links {
   display: flex;
-  justify-content: space-between; }
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  list-style: none; }
+  .sub-footer__social-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px; }
 
 /* ============= MAIN HEADER BEGINS HERE ============== */
 .main-header {
