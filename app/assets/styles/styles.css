@@ -283,6 +283,34 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
+.main-header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.main-header__brand-box {
+  top: 4rem;
+  left: 4rem; }
+
+.main-header__branding {
+  height: 15rem;
+  padding: 3rem; }
+
+.main-header__nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 8rem; }
+
+.main-header__nav-item {
+  list-style: none; }
+  .main-header__nav-item a {
+    padding-right: 3rem;
+    font-size: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+    list-style: none; }
+
 .main-footer {
   background-color: black;
   color: white;
@@ -335,19 +363,9 @@ body {
   background-position: center;
   background-attachment: fixed;
   position: relative; }
-  .main-header__navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .main-header__branding {
-    height: 15rem;
-    padding: 3rem; }
-  .main-header__nav-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 8rem; }
-    .main-header__nav-items a {
+  .main-header__nav-item {
+    list-style: none; }
+    .main-header__nav-item a {
       padding-right: 3rem;
       font-size: 2.5rem;
       color: #fff;
@@ -380,9 +398,10 @@ body {
   padding: 4rem; }
 
 .section-donate {
-  background-color: #eee;
-  padding: 4rem 4rem 8rem 4rem; }
+  background-color: #E64A19;
+  padding: 4rem 4rem 8rem 4rem;
+  color: #fff; }
 
 .section-sermons {
-  background-color: #E64A19;
-  color: #fff; }
+  background-color: #eee;
+  color: #333; }

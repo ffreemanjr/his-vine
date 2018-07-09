@@ -23,12 +23,13 @@
 }
 
 .section-donate {
-  background-color: #eee;
+  background-color: $color-primary-orange-deep;
   padding: 4rem 4rem 8rem 4rem;
+  color: $color-white;
 }
 
 .section-sermons {
-  background-color: $color-primary-orange-deep;
-  color: $color-white;
+  background-color: #eee;
+  color: $color-grey;
 }
 

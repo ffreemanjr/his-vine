@@ -8,11 +8,11 @@
   background-attachment: fixed;
   position: relative;
 
-  &__navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  // &__navbar {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  // }
 
   // &__brand-box {
   //   position: absolute;
@@ -20,16 +20,20 @@
   //   left: 4rem;
   // }
 
-  &__branding {
-    height: 15rem;
-    padding: 3rem;
-  }
+  // &__branding {
+  //   height: 15rem;
+  //   padding: 3rem;
+  // }
 
-  &__nav-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 8rem;
+  // &__nav-items {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   padding-right: 8rem;
+  // }
+
+  &__nav-item {
+    list-style: none;
 
     & a {
       padding-right: 3rem;
@@ -38,6 +42,7 @@
       text-decoration: none;
       list-style: none;
     }
+
   }
 
   &__text-box {
