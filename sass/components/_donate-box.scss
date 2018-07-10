@@ -5,7 +5,7 @@
   padding: 2.5rem;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 1.5 4rem rgba($color-white, .15);
+  box-shadow: 0 1.5rem 4rem rgba($color-white, .15);
   transition: transform .3s; 
  
   &:hover {
@@ -13,3 +13,7 @@
   }
 }
 
+.section-offering__donate-box {
+  background-color: $color-primary-purple;
+  color: $color-white;
+}

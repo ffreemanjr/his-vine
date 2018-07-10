@@ -12,7 +12,7 @@
 }
 
 .section-study {
-  background-color: rgb(107, 107, 224);
+  background-color: $color-grey-light;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
   url("/app/assets/img/bible-study.jpeg");
   background-attachment: fixed;
@@ -22,13 +22,13 @@
 }
 
 .section-donate {
-  background-color: $color-primary-orange-deep;
+  background-color: $color-blue-grey;
   padding: 4rem 4rem 8rem 4rem;
   color: $color-white;
 }
 
 .section-sermons {
-  background-color: #eee;
+  background-color: $color-grey-light;
   color: $color-grey;
 }
 

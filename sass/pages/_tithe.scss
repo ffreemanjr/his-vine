@@ -1,6 +1,59 @@
 .section-video {
-  padding: 4rem;
-  background-color: #eee;
+  padding: 4rem 4rem 12rem 4rem;
+  background-color: $color-grey-light;
+}
+
+.section-tithe {
+  background-color: #35404F;
+  color: $color-white;
+  font-size: 1.6rem;
+
+  &__item {
+    padding-left: 3rem;
+    list-style-type: square;
+    list-style-position: inside;
+
+    &--sub {
+      padding-left: 4rem;
+      line-height: 1.7;
+      list-style-type: square;
+    }    
+  }
+}
+
+.section-offering {
+  background-color: $color-grey-light;
   color: $color-grey;
-  width: 70%;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  color: $color-grey;
+  font-size: 2rem;
+  line-height: 145%;
+  position: relative;
+  margin-top: 4rem;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -.5rem;
+  left: -.5rem;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 2.5rem;
+  display: block;
+}
+
+cite img {
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }

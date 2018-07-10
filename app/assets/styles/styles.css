@@ -129,7 +129,7 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     transform: translateY(0); }
   .btn-text--white {
-    color: grey; }
+    color: #333; }
     .btn-text--white:hover {
       background-color: #fff;
       color: #333;
@@ -213,10 +213,14 @@ body {
   padding: 2.5rem;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 1.5 4rem rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(255, 255, 255, 0.15);
   transition: transform .3s; }
   .donate-box:hover {
     transform: translateY(-2.5rem) scale(1.08); }
+
+.section-offering__donate-box {
+  background-color: #663399;
+  color: #fff; }
 
 .sermon-box {
   background-color: rgba(102, 51, 153, 0.8);
@@ -330,7 +334,7 @@ body {
     text-decoration: none; }
 
 .sub-footer {
-  background-color: #0f0a0a;
+  background-color: #35404F;
   text-align: center;
   color: #fff;
   display: flex;
@@ -345,10 +349,10 @@ body {
 .sub-footer__social-links {
   display: flex;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
   list-style: none; }
   .sub-footer__social-links a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     margin-right: 20px; }
 
@@ -363,7 +367,7 @@ body {
   position: relative; }
   .main-header__text-box {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -379,7 +383,7 @@ body {
   border: 2px solid white; }
 
 .section-study {
-  background-color: #6b6be0;
+  background-color: #eee;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/bible-study.jpeg");
   background-attachment: fixed;
   background-size: cover;
@@ -387,7 +391,7 @@ body {
   padding: 4rem; }
 
 .section-donate {
-  background-color: #E64A19;
+  background-color: #35404F;
   padding: 4rem 4rem 8rem 4rem;
   color: #fff; }
 
@@ -395,6 +399,51 @@ body {
   background-color: #eee;
   color: #333; }
 
-.section-tithe {
-  padding: 4rem;
+.section-video {
+  padding: 4rem 4rem 12rem 4rem;
   background-color: #eee; }
+
+.section-tithe {
+  background-color: #35404F;
+  color: #fff;
+  font-size: 1.6rem; }
+  .section-tithe__item {
+    padding-left: 3rem;
+    list-style-type: square;
+    list-style-position: inside; }
+    .section-tithe__item--sub {
+      padding-left: 4rem;
+      line-height: 1.7;
+      list-style-type: square; }
+
+.section-offering {
+  background-color: #eee;
+  color: #333; }
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  color: #333;
+  font-size: 2rem;
+  line-height: 145%;
+  position: relative;
+  margin-top: 4rem; }
+
+blockquote:before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -.5rem;
+  left: -.5rem; }
+
+cite {
+  font-size: 90%;
+  margin-top: 2.5rem;
+  display: block; }
+
+cite img {
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle; }

@@ -32,7 +32,7 @@
 
 
 .sub-footer {
-  background-color: rgb(15, 10, 10);
+  background-color: $color-blue-grey;
   text-align: center;
   color: $color-white;
   display: flex;
@@ -52,12 +52,11 @@
 .sub-footer__social-links {
   display: flex;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
   list-style: none;
 
-
   & a {
-    color: white;
+    color: $color-white;
     text-decoration: none;
     margin-right: 20px;
   }
