@@ -283,33 +283,30 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-.main-header__navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.main-header__brand-box {
-  top: 4rem;
-  left: 4rem; }
-
-.main-header__branding {
-  height: 15rem;
-  padding: 3rem; }
-
-.main-header__nav-items {
+.main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 8rem; }
-
-.main-header__nav-item {
-  list-style: none; }
-  .main-header__nav-item a {
-    padding-right: 3rem;
-    font-size: 2.5rem;
-    color: #fff;
-    text-decoration: none;
+  background-color: #663399; }
+  .main-nav__brand-box {
+    top: 4rem;
+    left: 4rem; }
+  .main-nav__branding {
+    height: 15rem;
+    padding: 3rem; }
+  .main-nav__nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8rem; }
+  .main-nav__nav-item {
     list-style: none; }
+    .main-nav__nav-item a {
+      padding-right: 3rem;
+      font-size: 2.5rem;
+      color: #fff;
+      text-decoration: none;
+      list-style: none; }
 
 .main-footer {
   background-color: black;
@@ -358,19 +355,12 @@ body {
 /* ============= MAIN HEADER BEGINS HERE ============== */
 .main-header {
   height: 100vh;
+  background-color: #663399;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/antiquity.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative; }
-  .main-header__nav-item {
-    list-style: none; }
-    .main-header__nav-item a {
-      padding-right: 3rem;
-      font-size: 2.5rem;
-      color: #fff;
-      text-decoration: none;
-      list-style: none; }
   .main-header__text-box {
     position: absolute;
     top: 55%;
@@ -382,8 +372,7 @@ body {
 .section-welcome {
   background-color: #663399; }
   .section-welcome .section-welcome__info,
-  .section-welcome .section-study__info,
-  .section-welcome .section-donate--cta__info {
+  .section-welcome .section-study__info {
     width: 70%; }
 
 .pulpit {
@@ -405,3 +394,7 @@ body {
 .section-sermons {
   background-color: #eee;
   color: #333; }
+
+.section-tithe {
+  padding: 4rem;
+  background-color: #eee; }

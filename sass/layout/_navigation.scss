@@ -1,9 +1,10 @@
-.main-header {
-  &__navbar {
+.main-nav {
+  // &__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+    background-color: $color-primary-purple;
+  // }
 
   &__brand-box {
     top: 4rem;
