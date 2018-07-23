@@ -38,6 +38,16 @@ body {
   }
 }
 
+.page-heading {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 5.6rem;
+  letter-spacing: 1rem;
+  animation: moveInLeft 1s ease-out;
+  margin-bottom: 1rem;
+}
+
 
 .heading-secondary {
   font-size: 3.5rem;
