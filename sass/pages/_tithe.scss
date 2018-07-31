@@ -26,34 +26,3 @@
   color: $color-grey;
 }
 
-blockquote {
-  padding: 2%;
-  font-style: italic;
-  color: $color-grey;
-  font-size: 2rem;
-  line-height: 145%;
-  position: relative;
-  margin-top: 4rem;
-}
-
-blockquote:before {
-  content: "\201C";
-  font-size: 500%;
-  display: block;
-  position: absolute;
-  top: -.5rem;
-  left: -.5rem;
-}
-
-cite {
-  font-size: 90%;
-  margin-top: 2.5rem;
-  display: block;
-}
-
-cite img {
-  height: 6rem;
-  border-radius: 50%;
-  margin-right: 10px;
-  vertical-align: middle;
-}
