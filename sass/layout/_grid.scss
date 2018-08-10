@@ -39,3 +39,75 @@
 // .publishing-box {
 //   max-width: 100%;
 // }
+
+// CSS GRID
+.grid-container {
+  display: grid;
+  background-color: red;
+  color: white;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-gap: 2rem;
+  grid-template-areas: "card card card"
+                       "card card card"
+                       "card card card"
+                       "card card card";
+}
+
+.card {  
+  font-size: 1.6rem;
+  padding: 2rem;
+
+  &-title {
+    font-size: 2.4rem;
+    background-color: #999;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+}
+
+.card1 {
+  background-color: #663399;
+}
+
+.card2 {
+  background-color: #29ABE2;
+}
+
+.card3 {
+  background-color: #22B573;
+}
+
+.card4 {
+  background-color: #C69C6D;
+}
+
+.card5 {
+  background-color: #534741;
+}
+
+.card6 {
+  background-color: #2E3192;
+}
+
+.card7 {
+  background-color: #9E005D;
+}
+
+.card8 {
+  background-color: #0071BC;
+}
+
+.card9 {
+  background-color: #FF0621;
+}
+
+.card10 {
+  background-color: #29ABE2;
+}
+
+.card11 {
+  background-color: #1B1464;
+}
+
