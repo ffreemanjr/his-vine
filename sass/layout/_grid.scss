@@ -42,9 +42,8 @@
 
 // CSS GRID
 .grid-container {
+  color: $color-white;
   display: grid;
-  background-color: red;
-  color: white;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4,1fr);
   grid-gap: 2rem;
@@ -58,56 +57,63 @@
   font-size: 1.6rem;
   padding: 2rem;
 
-  &-title {
+  &__title {
     font-size: 2.4rem;
     background-color: #999;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
+    letter-spacing: .1rem;
+  }
+
+  &__button {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 }
 
-.card1 {
+.card-1 {
   background-color: #663399;
 }
 
-.card2 {
+.card-2 {
   background-color: #29ABE2;
 }
 
-.card3 {
+.card-3 {
   background-color: #22B573;
 }
 
-.card4 {
+.card-4 {
   background-color: #C69C6D;
 }
 
-.card5 {
+.card-5 {
   background-color: #534741;
 }
 
-.card6 {
+.card-6 {
   background-color: #2E3192;
 }
 
-.card7 {
+.card-7 {
   background-color: #9E005D;
 }
 
-.card8 {
+.card-8 {
   background-color: #0071BC;
 }
 
-.card9 {
+.card-9 {
   background-color: #FF0621;
 }
 
-.card10 {
+.card-10 {
   background-color: #29ABE2;
 }
 
-.card11 {
+.card-11 {
   background-color: #1B1464;
 }
 

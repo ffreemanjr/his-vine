@@ -302,6 +302,54 @@ cite img {
   .study-box:hover {
     transform: translateY(-2.5rem) scale(1.08); }
 
+.tabs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+.tabs:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 50rem; }
+
+.tabs li {
+  float: left; }
+
+.tabs li > input {
+  display: none; }
+
+.tabs li > label {
+  display: inline-block;
+  border: 0.1rem solid #9762cc;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  height: 5rem;
+  line-height: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer; }
+
+.tabs li:last-child > label {
+  border-right-width: .1rem; }
+
+.tabs .tab-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  padding: 2rem;
+  border: 0.1rem solid #9762cc;
+  height: 40rem;
+  overflow-y: scroll; }
+
+/************** FUNCTIONAL *****************/
+.tabs li > input:checked + label {
+  background-color: #eee; }
+
+.tabs li > input:checked ~ .tab-content {
+  display: block; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -329,9 +377,8 @@ cite img {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .grid-container {
+  color: #fff;
   display: grid;
-  background-color: red;
-  color: white;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 2rem;
@@ -340,44 +387,49 @@ cite img {
 .card {
   font-size: 1.6rem;
   padding: 2rem; }
-  .card-title {
+  .card__title {
     font-size: 2.4rem;
     background-color: #999;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 400; }
+    font-weight: 400;
+    letter-spacing: .1rem; }
+  .card__button {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center; }
 
-.card1 {
+.card-1 {
   background-color: #663399; }
 
-.card2 {
+.card-2 {
   background-color: #29ABE2; }
 
-.card3 {
+.card-3 {
   background-color: #22B573; }
 
-.card4 {
+.card-4 {
   background-color: #C69C6D; }
 
-.card5 {
+.card-5 {
   background-color: #534741; }
 
-.card6 {
+.card-6 {
   background-color: #2E3192; }
 
-.card7 {
+.card-7 {
   background-color: #9E005D; }
 
-.card8 {
+.card-8 {
   background-color: #0071BC; }
 
-.card9 {
+.card-9 {
   background-color: #FF0621; }
 
-.card10 {
+.card-10 {
   background-color: #29ABE2; }
 
-.card11 {
+.card-11 {
   background-color: #1B1464; }
 
 .main-nav {
