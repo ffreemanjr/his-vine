@@ -53,6 +53,17 @@
                        "card card card";
 }
 
+// CSS GRID
+.grid-pastoral-care {
+  color: $color-white;
+  display: grid;
+  grid: repeat(3, 1fr);
+  grid-gap: 2rem;
+  grid-template-areas: "card card card"
+                       "card card card"
+                       "card card card";
+}
+
 .card {  
   font-size: 1.6rem;
   padding: 2rem;
