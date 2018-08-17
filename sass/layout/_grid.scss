@@ -41,7 +41,8 @@
 // }
 
 // CSS GRID
-.grid-container {
+.grid-container,
+.grid-fundamentals {
   color: $color-white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -51,7 +52,33 @@
                        "card card card"
                        "card card card"
                        "card card card";
+
+  &__link,
+  &__link:visited {
+    color: $color-grey;
+    border: 1px solid goldenrod;
+    border-radius: .5rem;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    border: .5rem solid goldenrod;
+    background-color: $color-primary-purple;
+    color: $color-white;
+  }
+
+  
 }
+
+.grid-fundamentals__link {
+  text-decoration: none;
+}
+
+// .grid-fundamentals__title:hover {
+//   background-color: purple;
+// }
+
+
 
 // CSS GRID
 .grid-pastoral-care {
@@ -63,6 +90,8 @@
                        "card card card"
                        "card card card";
 }
+
+
 
 .card {  
   font-size: 1.6rem;
@@ -83,6 +112,12 @@
     text-align: center;
   }
 }
+
+.grid-fundamentals__title:hover {
+  background-color: purple;
+}
+
+
 
 .card-1 {
   background-color: #663399;
