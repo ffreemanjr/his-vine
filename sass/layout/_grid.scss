@@ -66,19 +66,11 @@
     background-color: $color-primary-purple;
     color: $color-white;
   }
-
-  
 }
 
 .grid-fundamentals__link {
   text-decoration: none;
 }
-
-// .grid-fundamentals__title:hover {
-//   background-color: purple;
-// }
-
-
 
 // CSS GRID
 .grid-pastoral-care {
@@ -91,15 +83,14 @@
                        "card card card";
 }
 
-
-
 .card {  
   font-size: 1.6rem;
   padding: 2rem;
 
   &__title {
     font-size: 2.4rem;
-    background-color: #999;
+    background-color: $color-primary-purple;
+    color: $color-white;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
