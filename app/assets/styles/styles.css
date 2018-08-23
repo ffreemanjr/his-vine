@@ -302,6 +302,28 @@ cite img {
   .study-box:hover {
     transform: translateY(-2.5rem) scale(1.08); }
 
+#customers {
+  border-collapse: collapse;
+  width: 100%; }
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px; }
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+#customers tr:hover {
+  background-color: #ddd; }
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #d59541;
+  color: white; }
+
 /************* This tab design inspired by a pen by Mikestreety ***********/
 .tabs {
   display: flex;
