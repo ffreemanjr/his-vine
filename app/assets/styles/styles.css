@@ -557,6 +557,16 @@ cite img {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.section-intro {
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  width: 100vw; }
+
+.page-heading {
+  color: #fff;
+  padding-top: 10rem; }
+
 .cta {
   padding-bottom: 0; }
   .cta__wrapper {
@@ -630,3 +640,12 @@ cite img {
 .section-offering {
   background-color: #eee;
   color: #333; }
+
+.study-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg"); }
+
+.worship-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }
+
+.section-services {
+  background-color: #eee; }
