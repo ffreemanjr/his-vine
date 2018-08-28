@@ -1,7 +1,75 @@
 .worship-intro {
-background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url('/app/assets/img/worship.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url('/app/assets/img/worship.jpg');
 }
 
+.normal-quote {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.box__cite {
+  padding-left: 20rem;
+}
+
+
+
 .section-services {
+  background-color: #eee;
+}
+
+.section-fellowship {
+  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)),
+  url('/app/assets/img/fellowship_meal.jpg');
+  height: 60vh;
+  color: $color-white;
+  background-attachment: fixed;
+}
+
+.children-activity {
+  // margin-bottom: 5rem;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 60rem;
+    height: .2rem;
+    background-color: $color-primary-orange;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+}
+
+
+.section-children {
+  background-color: $color-primary-purple-light;
+  color: $color-white;
+}
+
+.children-storytime {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
+  url('/app/assets/img/storytime.jpg');
+  height: 100%;
+  width: 100%;
+  color: $color-white;
+  background-size: cover;
+  background-position: center;
+  border-radius: .6rem;
+
+  &__quote {
+    color: $color-white;
+    padding: 15px;
+    font-weight: 400;
+  }
+
+  &__card {
+    border: solid $color-white 1px;
+  }
+}
+
+.card__title--heading {
+  background-color: $color-primary-purple;
+}
+
+.section-adults {
   background-color: #eee;
 }
