@@ -663,9 +663,11 @@ cite img {
   display: block;
   width: 60rem;
   height: .2rem;
-  background-color: #d59541;
+  background-color: #fff;
   margin: 0 auto;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  opacity: .2; }
 
 .section-children {
   background-color: #9762cc;
@@ -682,12 +684,46 @@ cite img {
   .children-storytime__quote {
     color: #fff;
     padding: 15px;
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 2rem; }
   .children-storytime__card {
     border: solid #fff 1px; }
 
+.children-afternoon {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/app/assets/img/kids.jpg");
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  border-radius: .6rem; }
+  .children-afternoon__card--content {
+    padding: 1.5rem;
+    background-color: #663399;
+    opacity: .5;
+    color: #fff; }
+
 .card__title--heading {
-  background-color: #663399; }
+  background-color: #d59541; }
 
 .section-adults {
   background-color: #eee; }
+
+.section-baptismal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/baptism.jpg");
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.baptism__quote {
+  color: white;
+  background-color: blue;
+  opacity: .4;
+  border: 1px solid white;
+  border-radius: .6rem; }
+
+.baptism__cite {
+  padding-left: 60rem; }
