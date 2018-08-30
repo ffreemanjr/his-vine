@@ -8,18 +8,18 @@ blockquote {
   margin-top: 4rem;
 }
 
-blockquote:before {
-  content: "\201C";
-  font-size: 500%;
-  display: block;
-  position: absolute;
-  top: -.5rem;
-  left: -.5rem;
-}
+// blockquote:before {
+//   content: "\201C";
+//   font-size: 500%;
+//   display: block;
+//   position: absolute;
+//   top: -.5rem;
+//   left: -.5rem;
+// }
 
 cite {
   font-size: 90%;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   display: block;
 }
 

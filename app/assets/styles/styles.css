@@ -91,6 +91,9 @@ body {
   animation: moveInLeft 1s ease-out;
   margin-bottom: 1rem; }
 
+.main-heading {
+  animation: none; }
+
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -114,9 +117,9 @@ body {
   text-transform: uppercase;
   letter-spacing: .2rem; }
 
-.paragraph {
+.paragraph, .section-paragraph {
   font-size: 2rem; }
-  .paragraph:not(:last-child) {
+  .paragraph:not(:last-child), .section-paragraph:not(:last-child) {
     margin-bottom: 1.8rem; }
 
 .btn-text {
@@ -179,17 +182,9 @@ blockquote {
   position: relative;
   margin-top: 4rem; }
 
-blockquote:before {
-  content: "\201C";
-  font-size: 500%;
-  display: block;
-  position: absolute;
-  top: -.5rem;
-  left: -.5rem; }
-
 cite {
   font-size: 90%;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   display: block; }
 
 cite img {
@@ -302,6 +297,28 @@ cite img {
   .study-box:hover {
     transform: translateY(-2.5rem) scale(1.08); }
 
+#customers {
+  border-collapse: collapse;
+  width: 100%; }
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px; }
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+#customers tr:hover {
+  background-color: #ddd; }
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #d59541;
+  color: white; }
+
 /************* This tab design inspired by a pen by Mikestreety ***********/
 .tabs {
   display: flex;
@@ -402,7 +419,8 @@ cite img {
   padding: 2rem; }
   .card__title {
     font-size: 2.4rem;
-    background-color: #999;
+    background-color: #663399;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
@@ -534,6 +552,16 @@ cite img {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.section-intro {
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  width: 100vw; }
+
+.page-heading {
+  color: #fff;
+  padding-top: 10rem; }
+
 .cta {
   padding-bottom: 0; }
   .cta__wrapper {
@@ -607,3 +635,95 @@ cite img {
 .section-offering {
   background-color: #eee;
   color: #333; }
+
+.study-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg"); }
+
+.worship-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }
+
+.normal-quote {
+  margin-top: 0;
+  padding-top: 0; }
+
+.box__cite {
+  padding-left: 20rem; }
+
+.section-services {
+  background-color: #eee; }
+
+.section-fellowship {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/app/assets/img/fellowship_meal.jpg");
+  height: 60vh;
+  color: #fff;
+  background-attachment: fixed; }
+
+.children-activity::after {
+  content: "";
+  display: block;
+  width: 60rem;
+  height: .2rem;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  opacity: .2; }
+
+.section-children {
+  background-color: #9762cc;
+  color: #fff; }
+
+.children-storytime {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("/app/assets/img/storytime.jpg");
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  border-radius: .6rem; }
+  .children-storytime__quote {
+    color: #fff;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 2rem; }
+  .children-storytime__card {
+    border: solid #fff 1px; }
+
+.children-afternoon {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/app/assets/img/kids.jpg");
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  border-radius: .6rem; }
+  .children-afternoon__card--content {
+    padding: 1.5rem;
+    background-color: #663399;
+    opacity: .5;
+    color: #fff; }
+
+.card__title--heading {
+  background-color: #d59541; }
+
+.section-adults {
+  background-color: #eee; }
+
+.section-baptismal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/baptism.jpg");
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.baptism__quote {
+  color: white;
+  background-color: blue;
+  opacity: .4;
+  border: 1px solid white;
+  border-radius: .6rem; }
+
+.baptism__cite {
+  padding-left: 60rem; }
