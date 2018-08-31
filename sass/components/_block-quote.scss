@@ -17,6 +17,42 @@ blockquote {
 //   left: -.5rem;
 // }
 
+.baptism__quote,
+.testimony__quote,
+.discussion__quote{
+  color: $color-white;
+  background-color: $color-primary-purple;
+  opacity: .8;
+  border: 1px solid $color-white;
+  border-radius: .6rem;
+}
+
+.pioneers__quote, {
+  background-color: $color-blue-grey;
+  color: $color-white;
+  border-radius: .6rem;
+}
+
+.membership__quote,
+.membership__cite {
+  color: $color-white;
+}
+
+.membership__quote,
+.health__quote {
+  background-color: $color-primary-orange;
+  border: 1px solid $color-white;
+}
+
+.baptism__cite,
+.testimony__cite,
+.discussion__cite,
+.pioneers__cite,
+.membership__cite,
+.health__cite {
+  padding-left: 60rem;
+}
+
 cite {
   font-size: 90%;
   margin-top: 1.5rem;

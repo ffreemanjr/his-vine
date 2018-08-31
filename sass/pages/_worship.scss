@@ -45,7 +45,7 @@
 }
 
 .children-storytime, {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
+  background-image: linear-gradient(rgba($color-primary-orange-deep, .5), rgba($color-primary-orange-deep, .3)),
   url('/app/assets/img/storytime.jpg');
   height: 100%;
   width: 100%;
@@ -63,13 +63,11 @@
 
   &__card {
     border: solid $color-white 1px;
-  }
-
-  
+  }  
 }
 
 .children-afternoon {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+  background-image: linear-gradient(rgba($color-primary-orange-deep, .5), rgba($color-primary-orange-deep, .5)),
   url('/app/assets/img/kids.jpg');
   height: 100%;
   width: 100%;
@@ -81,7 +79,7 @@
   &__card--content {
     padding: 1.5rem;
     background-color: $color-primary-purple;
-    opacity: .5;
+    opacity: .8;
     color: $color-white;
   }
 }
@@ -90,12 +88,14 @@
   background-color: $color-primary-orange;
 }
 
-.section-adults {
+.section-adults,
+.section-testimony,
+.section-pioneers {
   background-color: #eee;
 }
 
 .section-baptismal {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+  background-image: linear-gradient(rgba(92, 51, 51, 0.9), rgba(92, 51, 51, 0.9)),
   url('/app/assets/img/baptism.jpg');
   height: 100%;
   width: 100%;
@@ -105,14 +105,29 @@
   background-attachment: fixed;
 }
 
-.baptism__quote {
-  color: white;
-  background-color: blue;
-  opacity: .4;
-  border: 1px solid white;
-  border-radius: .6rem;
+.section-discussion {
+   background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+   url('/app/assets/img/discussion.jpg');
+   height: 100%;
+   width: 100%;
+   color: $color-white;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
 }
 
-.baptism__cite {
-  padding-left: 60rem;
+.section-membership {
+  background-color: $color-blue-grey;
+  color: $color-white;
+}
+
+.section-health {
+  background-image: linear-gradient(rgba($color-primary-purple-light, .8), rgba($color-primary-purple-light, .8)),
+  url('/app/assets/img/grapevine.jpg');
+  height: 100%;
+  width: 100%;
+  color: $color-white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
