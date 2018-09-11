@@ -1,3 +1,46 @@
 .study-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url('/app/assets/img/open_bible.jpg');
 }
+
+.section-archive {
+  background-color: #eee;
+  color: $color-grey;
+}
+
+.section-lessons {
+  color: $color-white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/app/assets/img/study.jpg');
+}
+
+
+
+
+
+.card-lesson {
+  border: 1px solid white;
+
+  &__title {
+    color: $color-white;
+    padding-top: 1.5rem;
+  }
+
+  &__icon {
+    color: white;
+    padding-bottom: 1rem;
+  }
+
+  &__content {
+    color: $color-white;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.section-lessons a:link {
+  text-decoration: none;
+}
+
+.section-lessons a:hover {
+  background-color: $color-primary-purple;
+  color: red;
+}
+

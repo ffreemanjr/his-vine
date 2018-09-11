@@ -670,6 +670,33 @@ cite img {
 .study-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg"); }
 
+.section-archive {
+  background-color: #eee;
+  color: #333; }
+
+.section-lessons {
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/study.jpg"); }
+
+.card-lesson {
+  border: 1px solid white; }
+  .card-lesson__title {
+    color: #fff;
+    padding-top: 1.5rem; }
+  .card-lesson__icon {
+    color: white;
+    padding-bottom: 1rem; }
+  .card-lesson__content {
+    color: #fff;
+    padding-bottom: 1.5rem; }
+
+.section-lessons a:link {
+  text-decoration: none; }
+
+.section-lessons a:hover {
+  background-color: #663399;
+  color: red; }
+
 .worship-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }
 
