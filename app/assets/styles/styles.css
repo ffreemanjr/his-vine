@@ -586,8 +586,7 @@ cite img {
 .section-intro {
   background-size: cover;
   background-position: center;
-  height: 30vh;
-  width: 100vw; }
+  height: 30vh; }
 
 .page-heading {
   color: #fff;
@@ -676,10 +675,18 @@ cite img {
 
 .section-lessons {
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/study.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/study.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
 
 .card-lesson {
-  border: 1px solid white; }
+  border: 1px solid white;
+  background-color: #9762cc;
+  opacity: .7; }
+  .card-lesson:hover {
+    background-color: #d59541; }
   .card-lesson__title {
     color: #fff;
     padding-top: 1.5rem; }
@@ -692,10 +699,6 @@ cite img {
 
 .section-lessons a:link {
   text-decoration: none; }
-
-.section-lessons a:hover {
-  background-color: #663399;
-  color: red; }
 
 .worship-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }

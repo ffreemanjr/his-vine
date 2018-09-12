@@ -3,21 +3,27 @@
 }
 
 .section-archive {
-  background-color: #eee;
+  background-color: $color-grey-light;
   color: $color-grey;
 }
 
 .section-lessons {
   color: $color-white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/app/assets/img/study.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-
-
-
-
 
 .card-lesson {
   border: 1px solid white;
+  background-color: $color-primary-purple-light;
+  opacity: .7;
+
+  &:hover {
+    background-color: $color-primary-orange;
+  }
 
   &__title {
     color: $color-white;
@@ -39,8 +45,4 @@
   text-decoration: none;
 }
 
-.section-lessons a:hover {
-  background-color: $color-primary-purple;
-  color: red;
-}
 
