@@ -597,10 +597,10 @@ cite img {
   .cta__wrapper {
     background: #54A4DE;
     padding-top: 5rem;
-    height: 15rem; }
+    height: 35rem; }
   .cta__form-control {
     color: #333;
-    background-color: #fff;
+    background-color: #eee;
     width: 100%;
     height: 5rem;
     font-family: 'Roboto', sans-serif;
@@ -609,7 +609,7 @@ cite img {
     .cta__form-control::placeholder {
       color: #333; }
   .cta__button {
-    background-color: white;
+    background-color: #eee;
     color: #333;
     width: 100%;
     text-align-last: center;
@@ -699,6 +699,38 @@ cite img {
 
 .section-lessons a:link {
   text-decoration: none; }
+
+.cta-header {
+  padding-top: 0;
+  color: #fff; }
+
+.cta-form-control,
+.cta-button {
+  border-radius: .5rem; }
+
+.cta-button:hover {
+  background-color: #35404F;
+  color: #fff;
+  border: none; }
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.modal-content {
+  width: 50rem;
+  height: 60rem;
+  background-color: #9762cc;
+  color: #fff;
+  border-radius: .4rem; }
+  .modal-content__header {
+    background-color: #d59541; }
 
 .worship-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }
