@@ -714,23 +714,34 @@ cite img {
   border: none; }
 
 .bg-modal {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
+  display: none;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
   top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 100vh;
+  width: 100vw;
+  z-index: 1; }
 
 .modal-content {
-  width: 50rem;
-  height: 60rem;
+  display: none;
+  position: fixed;
   background-color: #9762cc;
   color: #fff;
-  border-radius: .4rem; }
+  border-radius: 0.4rem;
+  z-index: 1; }
   .modal-content__header {
-    background-color: #d59541; }
+    background-color: #d59541;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; }
+  .modal-content__close {
+    font-size: 4rem;
+    padding-right: 2.4rem;
+    cursor: pointer; }
+  .modal-content__heading {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 2.4rem; }
 
 .worship-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }
