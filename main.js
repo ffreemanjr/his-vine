@@ -1,38 +1,26 @@
-var study = document.querySelectorAll('.modal-content');
-var bgModal = document.querySelector('.bg-modal');
+var modalContent = document.querySelectorAll('.card-lesson');
+var close = document.querySelector('.modal-content__close');
+var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal-content');
 
+
 function openModal() {
-  bgModal.style.display = 'block';
+  backdrop.style.display = 'block';
   modal.style.display = 'block';
 }
 
 function closeModal() {
-  bgModal.style.display = 'none';
-  modal.style.display = 'none';
+  close.style.display = 'none';
+  backdrop.style.display = 'none';
+  modal.style.display = 'none';  
 }
 
-for (i = 0; i < study.length; i++) {
-  study[i].addEventListener('click', openModal);
+for (i = 0; i < modalContent.length; i++) {
+  modalContent[i].addEventListener('click', openModal);
 }
 
-bgModal.addEventListener('click', closeModal)
+backdrop.addEventListener('click', closeModal);
+modal.addEventListener('click', closeModal);
+close.addEventListener('click', closeModal);
 
-
-
-
-
-
-// document.getElementById('treasures').addEventListener("click", function() {
-//   document.querySelector('.bg-modal').style.display = 'flex';
-// });
-
-// document.querySelector('.modal-content__close').addEventListener("click", function() {
-//   document.querySelector('.bg-modal').style.display = 'none';
-// });
-
-
-
-
-
-console.log(study);
+console.log(modalContent[3]);
