@@ -96,28 +96,30 @@
       </div>
 
       <div class="row">
-        <div class="col-1-of-3">
-          <a href="#">
-            <div class="card card-lesson">
-              <h3 class="card-title card-lesson__title heading-tertiary u-margin-bottom-small">Hidden Treasures</h3>
-              <i class="fas fa-gift fa-4x card-lesson__icon"></i>
-              <p class="card-content card-lesson__content">
-                Hidden Treasures Living Truth Bible Study is an excellent beginning for anyone looking to study and understand God's word. It is useful for both new christians as well as those who have been in the faith for a while.
-              </p>
-            </div>
-          </a>
+        <div class="col-1-of-3">          
+          <div class="card card-lesson">
+            <h3 class="card-title card-lesson__title heading-tertiary u-margin-bottom-small">Hidden Treasures</h3>
+            <i class="fas fa-gift fa-4x card-lesson__icon"></i>
+            <p class="card-content card-lesson__content">
+              Hidden Treasures Living Truth Bible Study is an excellent beginning for anyone looking to study and understand God's word. It is useful for both new christians as well as those who have been in the faith for a while.
+            </p>
+            <p>
+              <button class="button" data-modal="treasures">Begin Study</button>
+            </p>            
+          </div>          
         </div> 
         
         <div class="col-1-of-3">
-          <a href="#">
-            <div class="card card-lesson">
-              <h3 class="card-title card-lesson__title heading-tertiary u-margin-bottom-small">Study on Ephesians</h3>
-              <i class="fas fa-users fa-4x card-lesson__icon"></i>
-              <p class="card-content card-lesson__content">
-                Ephesus was a major city in Asia Minor with over a quarter of a million people living there at one time. This study focuses on Apostle Paul's letter to the Ephesians, whom he spent time ministering to.
-              </p>
-            </div>
-          </a>
+          <div class="card card-lesson">
+            <h3 class="card-title card-lesson__title heading-tertiary u-margin-bottom-small">Study on Ephesians</h3>
+            <i class="fas fa-users fa-4x card-lesson__icon"></i>
+            <p class="card-content card-lesson__content">
+              Ephesus was a major city in Asia Minor with over a quarter of a million people living there at one time. This study focuses on Apostle Paul's letter to the Ephesians, whom he spent time ministering to.
+            </p>
+            <p>
+              <button class="button" data-modal="treasures">Begin Study</button>
+            </p>
+          </div>
         </div> 
         
         <div class="col-1-of-3">
@@ -128,6 +130,7 @@
               <p class="card-content card-lesson__content">
                 Paul's letter to the Romans is believed to be the longest of the epistles he wrote. It establishes the majority of church doctrine regarding sin, salvation, sanctification, and glorification.
               </p>
+              <a href="#" class="button"></a>
             </div>
           </a>
         </div>             
@@ -142,6 +145,7 @@
               <p class="card-content card-lesson__content">
                 Prophecy is one way that God has used to inform HIS people of coming events. The book of Daniel, as written by Daniel the Prophet, is the first of two prophetic books of the Bible that depict end times events. This is an important study for all Christians today.
               </p>
+              <a href="#" class="button"></a>
             </div>
           </a>
         </div> 
@@ -155,6 +159,7 @@
               <p class="card-content card-lesson__content">
                 Revelation, the second of the two end time prophetic books of the Bible, was written by the Apostle John while exiled on the island of Patmos. It is the inspired revelation of Jesus Christ, and provides waymarks for Christians and focus on the Three Angels' messsages. 
               </p>
+              <a href="#" class="button"></a>
             </div>
           </a>
         </div> 
@@ -167,6 +172,7 @@
               <p class="card-content card-lesson__content">
                 This lesson introduces all Bible readers and students to Jesus and the life He lived while on earth. It is an important study in that it shows that Jesus came to show us the Father and how to live a victorious life through His faith.
               </p>
+              <a href="#" class="button"></a>
             </div>
           </a>
         </div>             
@@ -394,9 +400,38 @@
   </footer>
 
   <!-- MODALS SECTION -->
-  <div class="backdrop"></div> 
+  <!-- <div class="backdrop"></div>  -->
 
-  <div class="modal-content">
+  <div id="modal-treasure" class="modal">
+    <div class="modal-content">
+      <div class="modal-content__header">
+        <h2 class="modal-content__heading">Hdden Treasures Bible Study</h2>
+        <div class="modal-content__close">&times;</div>
+      </div>
+      <div class="modal-content__body">
+        <p>A listing of all the studies in this modal. Then more of the same.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modal-ephesians" class="modal">
+    <div class="modal-content">
+      <div class="modal-content__header">
+        <h2 class="modal-content__heading">Study on Ephesians</h2>
+        <div class="modal-content__close">&times;</div>
+      </div>
+      <div class="modal-content__body">
+        <p>A listing of all the studies in this modal. Then more of the same.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- <div class="modal-content">
     <div class="modal-content__header">
       <h2 class="modal-content__heading">Hdden Treasures Bible Study</h2>
       <div class="modal-content__close">&times;</div>
@@ -414,7 +449,7 @@
     <div class="modal-content__body">
       <p>https://www.youtube.com/playlist?list=PLPXCv-Krj8pZFtlkby2o9gg-OmAa8mclo</p>
     </div>
-  </div>
+  </div> -->
   
 
   <!-- MODALS SECTION -->
