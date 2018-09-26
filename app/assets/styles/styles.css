@@ -306,12 +306,21 @@ cite img {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    background-color: #fff;
+    background-color: #d59541;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: .3rem;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.5);
     transition: all .4s .2s; }
+  .popup__header {
+    background-color: #d59541;
+    color: #fff;
+    font-size: 3rem; }
+  .popup__title {
+    font-size: 3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    margin-left: 2.5rem; }
   .popup:target {
     opacity: 1;
     visibility: visible; }
@@ -319,18 +328,41 @@ cite img {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1); }
   .popup__close:link, .popup__close:visited {
-    color: #663399;
+    color: #fff;
     position: absolute;
-    top: -1.5rem;
+    top: -1.3rem;
     right: 2.5rem;
-    font-size: 5rem;
+    font-size: 6rem;
+    font-weight: 400;
     text-decoration: none;
     display: inline-block;
     transition: all .2s;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-left: 20px; }
   .popup__close:hover {
-    color: #E64A19;
-    font-weight: 400; }
+    color: #E64A19; }
+  .popup__body {
+    background-color: #fff;
+    color: #333; }
+  .popup__info, .popup__item {
+    color: #333;
+    font-size: 2rem;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem; }
+  .popup__item {
+    padding-top: 0; }
+  .popup__item a:link {
+    text-decoration: none;
+    border: 1px solid #d59541;
+    padding: 1.5rem;
+    border-radius: 1rem; }
+  .popup__item a:visited {
+    color: #333; }
+  .popup__item a:hover {
+    background-color: #d59541;
+    color: white; }
 
 .sermon-box {
   background-color: rgba(102, 51, 153, 0.8);
@@ -371,22 +403,43 @@ cite img {
   .study-box:hover {
     transform: translateY(-2.5rem) scale(1.08); }
 
-#customers {
+#customers,
+#treasures {
+  font-family: "Roboto",  sans-serif;
   border-collapse: collapse;
   width: 100%; }
 
+#customers a:link,
+#treasures a:link,
+.popup__item a:visited {
+  text-decoration: none;
+  color: #333; }
+
+#customers a:visited,
+.popup__items a:visited {
+  color: #E64A19; }
+
 #customers td,
-#customers th {
+#customers th,
+#treasures td,
+#treasures th {
   border: 1px solid #ddd;
   padding: 8px; }
 
-#customers tr:nth-child(even) {
+#customers tr,
+#treasures tr {
+  font-size: 2rem; }
+
+#customers tr:nth-child(even),
+#treasures tr:nth-child(even) {
   background-color: #f2f2f2; }
 
-#customers tr:hover {
+#customers tr:hover,
+#treasures tr:hover {
   background-color: #ddd; }
 
-#customers th {
+#customers th,
+#treasures th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -759,6 +812,12 @@ button.button:hover {
   background-color: #35404F;
   color: #fff;
   border: none; }
+
+.popup__table {
+  background-color: #eee; }
+
+#treasures {
+  border-radius: 3px; }
 
 .worship-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }

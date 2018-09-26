@@ -1,24 +1,47 @@
-#customers {
-    // font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+#customers,
+#treasures {
+    font-family: "Roboto",  sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
+#customers a:link,
+#treasures a:link,
+.popup__item a:visited {
+    text-decoration: none;
+    color: $color-grey;    
+}
+
+#customers a:visited,
+.popup__items a:visited {
+    color: $color-primary-orange-deep;    
+}
+
 #customers td,
-#customers th {
+#customers th,
+#treasures td,
+#treasures th, {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#customers tr:nth-child(even) {
+#customers tr,
+#treasures tr{
+    font-size: 2rem;
+} 
+
+#customers tr:nth-child(even),
+#treasures tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-#customers tr:hover {
+#customers tr:hover,
+#treasures tr:hover{
     background-color: #ddd;
 }
 
-#customers th {
+#customers th,
+#treasures th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;

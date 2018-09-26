@@ -13,12 +13,25 @@
   &__content {
     @include absCenter;
     width: 50%;
-    background-color: $color-white;
+    background-color: $color-primary-orange;
     box-shadow: 0 2rem 4rem rgba($color-black, .2);
     border-radius: .3rem;
     opacity: 0;
     transform: translate(-50%, -50%) scale(.5);
     transition: all .4s .2s;
+  }
+
+  &__header {
+    background-color: $color-primary-orange;
+    color: $color-white;
+    font-size: 3rem;
+  }
+
+  &__title {
+    font-size: 3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    margin-left: 2.5rem;
   }
 
   // POPUP OPEN STATES
@@ -35,21 +48,60 @@
   &__close {
     &:link,
     &:visited {
-      color: $color-primary-purple;
+      color: $color-white;
       position: absolute;
-      top: -1.5rem;
+      top: -1.3rem;
       right: 2.5rem;
-      font-size: 5rem;
+      font-size: 6rem;
+      font-weight: 400;
       text-decoration: none;
       display: inline-block;
       transition: all .2s;
       cursor: pointer;
+      margin-left: 20px;
     }
 
     &:hover {
       color: $color-primary-orange-deep;
-      font-weight: 400;
     }
   }
+
+  &__body {
+    background-color: $color-white;
+    color: $color-grey;
+    // margin: 6rem;
+  }
+
+  &__info,
+  &__item {
+    color: $color-grey;
+    font-size: 2rem;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    padding-top: 3.5rem;
+    padding-bottom:3.5rem;
+  }
+
+  &__item {
+    padding-top: 0;
+  }
+
+  &__item a:link  {
+    text-decoration: none;
+    border: 1px solid $color-primary-orange;
+    padding: 1.5rem;  
+    border-radius: 1rem;
+
+  }
+
+  &__item a:visited {
+    color: $color-grey; 
+}
+
+  &__item a:hover {
+    background-color: $color-primary-orange;
+    color: white;
+  }
   
+   
 }
