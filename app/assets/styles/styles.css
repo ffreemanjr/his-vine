@@ -363,6 +363,9 @@ cite img {
   .popup__item a:hover {
     background-color: #d59541;
     color: white; }
+  .popup__footer {
+    background-color: #d59541;
+    height: 20rem; }
 
 .sermon-box {
   background-color: rgba(102, 51, 153, 0.8);
@@ -761,6 +764,37 @@ cite img {
 .section-offering {
   background-color: #eee;
   color: #333; }
+
+.pastor-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/sherpherd.jpg"); }
+
+.section-pastor {
+  background-color: #644B46;
+  color: #fff; }
+
+.pastor {
+  font-size: 2rem; }
+  .pastor__bio {
+    margin-bottom: 2rem; }
+  .pastor__video:link, .pastor__video:visited {
+    opacity: .5; }
+  .pastor__video:hover {
+    opacity: 1; }
+  .pastor__img {
+    border-radius: 6px;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.7); }
+
+.cta__container {
+  height: 15rem; }
+
+.section-pastoral-care {
+  background-color: #eee; }
+
+.pastoral-card {
+  border-radius: .5rem;
+  opacity: .7; }
+  .pastoral-card:hover {
+    opacity: 1; }
 
 .study-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg"); }
