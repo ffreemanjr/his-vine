@@ -81,12 +81,12 @@
   grid-template-areas: "card card card"
                        "card card card"
                        "card card card";
-}
+  }
 
 .card {  
   font-size: 1.6rem;
   padding: 2rem;
-
+  
   &__title {
     font-size: 2.4rem;
     background-color: $color-primary-purple;
@@ -108,10 +108,8 @@
   background-color: purple;
 }
 
-
-
 .card-1 {
-  background-color: #663399;
+  background-color: #35404F;
 }
 
 .card-2 {
@@ -127,7 +125,7 @@
 }
 
 .card-5 {
-  background-color: #534741;
+  background-color: #E64A19;
 }
 
 .card-6 {

@@ -564,7 +564,7 @@ cite img {
   background-color: purple; }
 
 .card-1 {
-  background-color: #663399; }
+  background-color: #35404F; }
 
 .card-2 {
   background-color: #29ABE2; }
@@ -576,7 +576,7 @@ cite img {
   background-color: #C69C6D; }
 
 .card-5 {
-  background-color: #534741; }
+  background-color: #E64A19; }
 
 .card-6 {
   background-color: #2E3192; }
@@ -768,7 +768,7 @@ cite img {
 .pastor-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/sherpherd.jpg"); }
 
-.section-pastor {
+.section-pastoral-care {
   background-color: #644B46;
   color: #fff; }
 
@@ -787,7 +787,7 @@ cite img {
 .cta__container {
   height: 15rem; }
 
-.section-pastoral-care {
+.section-pastor {
   background-color: #eee; }
 
 .pastoral-card {
@@ -795,6 +795,19 @@ cite img {
   opacity: .7; }
   .pastoral-card:hover {
     opacity: 1; }
+  .pastoral-card__content {
+    margin-bottom: 3rem;
+    padding-top: 2rem; }
+  .pastoral-card a:link,
+  .pastoral-card a:visited {
+    text-decoration: none;
+    display: block;
+    border: .1rem solid white;
+    color: white;
+    padding: 1rem;
+    font-size: 1.8rem; }
+  .pastoral-card a:hover {
+    background-color: #d59541; }
 
 .study-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg"); }

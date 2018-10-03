@@ -2,7 +2,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url('/app/assets/img/sherpherd.jpg');
 }
 
-.section-pastor {
+.section-pastoral-care {
   background-color: $color-primary-brown;
   color: $color-white;
 }
@@ -33,7 +33,7 @@
   height: 15rem;
 }
 
-.section-pastoral-care {
+.section-pastor {
   background-color: $color-grey-light;
 }
 
@@ -43,5 +43,28 @@
 
   &:hover {
     opacity: 1;
+  } 
+
+  &__content {
+    margin-bottom: 3rem;
+    padding-top: 2rem;
   }
+
+  & a:link,
+  & a:visited {
+    text-decoration: none;
+    display: block;
+    border: .1rem solid white;
+    color: white;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  & a:hover {
+    background-color: $color-primary-orange;
+  }
+
+
 }
+
+
