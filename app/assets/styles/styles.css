@@ -720,8 +720,8 @@ cite img {
 
 .freesda-body {
   background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A);
-  background-size: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin: 0; }
   .freesda-body:before {
     content: '';
     position: fixed;
@@ -731,20 +731,22 @@ cite img {
     z-index: -1;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #21D4FD 75%); }
 
+.freesda-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/sherpherd.jpg"); }
+
 #container {
   background-color: #fff;
-  margin: 80px, 100%;
-  padding: 30px 60px;
+  margin: 8rem 10% 18rem 10%;
+  padding: 3rem 6rem;
   border-radius: 2rem;
   box-shadow: 0 0.3rem 2.6rem 0 rgba(0, 0, 0, 0.2); }
 
 .freesda-main {
-  box-sizing: border-box;
   background-color: #f7f7f7;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 2rem;
+  border-radius: 1rem;
   color: #6b6b6b;
-  margin: 40px 0; }
+  margin: 10rem 20rem; }
 
 .section-welcome {
   background-color: #663399; }
