@@ -729,7 +729,8 @@ cite img {
     bottom: 0;
     width: 100%;
     z-index: -1;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #21D4FD 75%); }
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #21D4FD 75%);
+    position: relative; }
 
 .freesda-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/sherpherd.jpg"); }
@@ -747,6 +748,20 @@ cite img {
   border-radius: 1rem;
   color: #6b6b6b;
   margin: 10rem 20rem; }
+  .freesda-main__item:link, .freesda-main__item:visited {
+    text-decoration: none;
+    color: #6b6b6b;
+    border-bottom: 3px solid #6b6b6b; }
+
+.freesda-main__footer {
+  position: absolute;
+  right: 0;
+  left: 0; }
+
+.freesda-sub__footer {
+  position: absolute;
+  right: 0;
+  left: 0; }
 
 .section-welcome {
   background-color: #663399; }
