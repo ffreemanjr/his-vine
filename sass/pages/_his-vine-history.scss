@@ -1,0 +1,32 @@
+.vine-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url('/app/assets/img/open_bible.jpg');
+  background-size: cover;
+}
+
+.section-hisvine {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: $color-white;
+}
+
+.section-the-call {
+  background-color: $color-grey-light;
+}
+
+.section-understanding {
+  background-color: $color-primary-purple;
+  color: $color-white;
+}
+
+.section-humble {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/app/assets/img/humble-beginnings.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color: $color-white;
+  background-color: #1d1f24;
+}
+
+.section-strange-land {
+  background-color: $color-grey-light;
+
+}

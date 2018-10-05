@@ -763,6 +763,32 @@ cite img {
   right: 0;
   left: 0; }
 
+.vine-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg");
+  background-size: cover; }
+
+.section-hisvine {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #fff; }
+
+.section-the-call {
+  background-color: #eee; }
+
+.section-understanding {
+  background-color: #663399;
+  color: #fff; }
+
+.section-humble {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/humble-beginnings.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  background-color: #1d1f24; }
+
+.section-strange-land {
+  background-color: #eee; }
+
 .section-welcome {
   background-color: #663399; }
   .section-welcome .section-welcome__info,
