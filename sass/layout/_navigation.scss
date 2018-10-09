@@ -1,3 +1,17 @@
+.brand-box {
+  top: 4rem;
+  left: 4rem;
+  text-align: center;
+
+  &__branding {
+    height: 5rem;
+    padding: 3rem;
+  }
+}
+  
+  
+  
+
 .main-nav {
   // &__navbar {
     display: flex;
@@ -6,16 +20,7 @@
     background-color: $color-primary-purple;
   // }
 
-  &__brand-box {
-    top: 4rem;
-    left: 4rem;
-  }
-  
-  &__branding {
-    height: 15rem;
-    padding: 3rem;
-  }
-  
+
   &__nav-items {
     display: flex;
     justify-content: space-between;

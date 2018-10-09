@@ -596,17 +596,19 @@ cite img {
 .card-11 {
   background-color: #1B1464; }
 
+.brand-box {
+  top: 4rem;
+  left: 4rem;
+  text-align: center; }
+  .brand-box__branding {
+    height: 5rem;
+    padding: 3rem; }
+
 .main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #663399; }
-  .main-nav__brand-box {
-    top: 4rem;
-    left: 4rem; }
-  .main-nav__branding {
-    height: 15rem;
-    padding: 3rem; }
   .main-nav__nav-items {
     display: flex;
     justify-content: space-between;
