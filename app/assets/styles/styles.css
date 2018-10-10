@@ -596,32 +596,51 @@ cite img {
 .card-11 {
   background-color: #1B1464; }
 
-.brand-box {
-  top: 4rem;
-  left: 4rem;
-  text-align: center; }
-  .brand-box__branding {
-    height: 5rem;
-    padding: 3rem; }
-
 .main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
+  height: 10rem;
   background-color: #663399; }
-  .main-nav__nav-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 8rem; }
-  .main-nav__nav-item {
-    list-style: none; }
-    .main-nav__nav-item a {
-      padding-right: 3rem;
-      font-size: 2.5rem;
-      color: #fff;
-      text-decoration: none;
-      list-style: none; }
+
+.branding {
+  height: 7rem;
+  float: left;
+  padding-left: 2rem;
+  padding-top: 1rem; }
+
+.main-nav__items {
+  float: right; }
+
+.main-nav__nav-item {
+  float: left;
+  list-style: none;
+  position: relative; }
+  .main-nav__nav-item a {
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 4rem 2rem 1rem 1.4rem; }
+
+.active {
+  background-color: #d59541; }
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #663399;
+  border-radius: 0 0 .4rem .4rem;
+  list-style: none; }
+  .submenu-item {
+    width: 40rem; }
+  .submenu a {
+    padding: .8rem 1.4rem;
+    text-decoration: none;
+    font-size: 1.8rem; }
+  .submenu a:hover {
+    background-color: #d59541; }
+
+.dropdown:hover .submenu {
+  display: block; }
 
 .main-footer {
   background-color: black;
