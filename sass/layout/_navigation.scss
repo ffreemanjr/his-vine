@@ -12,7 +12,7 @@
   }
   
   &__branding {
-    height: 15rem;
+    height: 12rem;
     padding: 3rem;
   }
   
@@ -20,19 +20,71 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 8rem;
+    padding-right: 4rem;
   }
 
   &__nav-item {
     list-style: none;
+    padding-left: 2rem;
+    
 
-    & a {
+    & a:link, 
+    & a:visited {
       padding-right: 3rem;
       font-size: 2.5rem;
       color: $color-white;
       text-decoration: none;
-      list-style: none;
+      list-style: none; 
+    }
+
+    & a:focus-visible {
+      border-top: 3px solid white;
+      padding-bottom: 10rem;
     }
   }
+
+  &__nav-item:hover {
+    background-color: $color-primary-orange;
+  }
 }
+
+.dropdown {
+  position: relative;
+
+  &__submenu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    min-width: 40rem;
+    background-color: $color-primary-purple-light;
+    left: 0;
+    
+    &--item {
+      display: block;
+      border-top: 1px solid $color-white;
+      padding-left: 1rem;
+
+      & a:link,
+      & a:visited {
+        font-size: 2rem;
+        color: $color-white;
+        display: block;
+      }
+    }
+
+    &--item a:hover {
+      background-color: $color-primary-orange;
+    }
+  }
+
+}
+
+.dropdown:hover {
+  display: block;
+
+  &__submenu {
+    display: block;
+  }
+}
+
 
