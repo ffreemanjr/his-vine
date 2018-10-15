@@ -1,94 +1,65 @@
-// .brand-box {
-//   top: 4rem;
-//   left: 4rem;
-//   text-align: center;
+.branding {
+  height: 7rem;
+  float: left;
+  padding-left: 2rem;
+  padding-top: .3rem;
+}
 
-//   &__branding {
-//     height: 5rem;
-//     padding: 3rem;
-//   }
-// }
-  
-  &__branding {
-    height: 12rem;
-    padding: 3rem;
-  }
-  
-  &__nav-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 4rem;
-  }
+.main-nav {
+  width: 100%;
+  height: 10rem;
+  background-color: $color-primary-purple;
 
-  &__nav-item {
-    list-style: none;
-    padding-left: 2rem;
-    
-
-    & a:link, 
-    & a:visited {
-      padding-right: 3rem;
-      font-size: 2.5rem;
-      color: $color-white;
-      text-decoration: none;
-      list-style: none; 
-    }
-
-    & a:focus-visible {
-      border-top: 3px solid white;
-      padding-bottom: 10rem;
-    }
+  &__items {
+    float: right;
   }
 
   &__nav-item:hover {
     background-color: $color-primary-orange;
   }
+
+  &__nav-item {
+    float: left;
+    list-style: none;
+
+    & a {
+      display: block;
+      text-decoration: none;
+      color: $color-white;
+      font-size: 2rem;
+      padding: 4rem 2rem 1rem 1.4rem;
+    }
+  }
 }
 
-<<<<<<< HEAD
+.active {
+  background-color: $color-primary-orange;
+}
+
+/* =============== DROPDOWN MENU ======================== */
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: $color-primary-purple;
+  border-radius: 0 0 .4rem .4rem;
+  list-style: none;
+
+  &-item {
+    min-width: 20rem;
+    border-top: 1px solid $color-primary-purple-light;
+
+    & a {
+      padding: .8rem 1.4rem;
+      text-decoration: none;
+      font-size: 1.8rem;
+    }
+  }
+} 
+
 .dropdown:hover .submenu {
   display: block;
 }
-=======
-.dropdown {
-  position: relative;
 
-  &__submenu {
-    display: none;
-    list-style: none;
-    position: absolute;
-    min-width: 40rem;
-    background-color: $color-primary-purple-light;
-    left: 0;
-    
-    &--item {
-      display: block;
-      border-top: 1px solid $color-white;
-      padding-left: 1rem;
-
-      & a:link,
-      & a:visited {
-        font-size: 2rem;
-        color: $color-white;
-        display: block;
-      }
-    }
-
-    &--item a:hover {
+.submenu a:hover {
       background-color: $color-primary-orange;
     }
-  }
-
-}
-
-.dropdown:hover {
-  display: block;
-
-  &__submenu {
-    display: block;
-  }
-}
-
-
->>>>>>> 9f69a53691632f1902afc764485d57f2ca61b71b
