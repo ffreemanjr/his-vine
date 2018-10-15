@@ -812,6 +812,27 @@ cite img {
 .section-strange-land {
   background-color: #eee; }
 
+.section-publishing {
+  color: #fff;
+  background-color: #1d1f24; }
+
+.section-glory {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.8)), url("/app/assets/img/glory.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  background-color: #1d1f24; }
+
+.section-assembly {
+  background-color: #eee; }
+
+.section-future {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("/app/assets/img/country-life.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  background-color: #1d1f24; }
+
 .section-welcome {
   background-color: #663399; }
   .section-welcome .section-welcome__info,
