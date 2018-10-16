@@ -1,0 +1,45 @@
+.fundamental-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('/app/assets/img/foundation.jpg');
+}
+
+.section-page__info {
+  padding-top: 8rem;
+  background-color: $color-grey-light;
+}
+
+.section-fundamentals {
+  background-color: $color-primary-brown;
+  color: $color-white;
+}
+
+.card-beliefs {
+  border: 1px solid white;
+  background-color: $color-primary-purple-light; 
+  border-radius: .3rem;
+  padding: 0;
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: $color-white;
+  }
+
+ &:hover {
+   background-color: $color-primary-orange;
+ }
+
+ &__icon {
+   margin-right: 2rem;
+ }
+
+ &__title {
+   height: 5rem;
+   background-color: $color-blue-grey;
+   padding-top: .5rem;
+ }
+
+ .card-beliefs__content {
+   padding: 3rem;
+ }
+
+}

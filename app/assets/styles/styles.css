@@ -513,29 +513,22 @@ cite img {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 2rem) / 4) + 2 * 2rem); }
 
-.grid-container,
-.grid-fundamentals {
+.grid-container {
   color: #fff;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 2rem;
   grid-template-areas: "card card card" "card card card" "card card card" "card card card"; }
-  .grid-container__link, .grid-container__link:visited,
-  .grid-fundamentals__link,
-  .grid-fundamentals__link:visited {
+  .grid-container__link, .grid-container__link:visited {
     color: #333;
     border: 1px solid goldenrod;
     border-radius: .5rem;
     text-decoration: none; }
-  .grid-container__link:hover,
-  .grid-fundamentals__link:hover {
+  .grid-container__link:hover {
     border: .5rem solid goldenrod;
     background-color: #663399;
     color: #fff; }
-
-.grid-fundamentals__link {
-  text-decoration: none; }
 
 .grid-pastoral-care {
   color: #fff;
@@ -559,9 +552,6 @@ cite img {
     padding-left: 0;
     padding-right: 0;
     text-align: center; }
-
-.grid-fundamentals__title:hover {
-  background-color: purple; }
 
 .card-1 {
   background-color: #35404F; }
@@ -786,6 +776,36 @@ cite img {
   right: 0;
   left: 0; }
 
+.fundamental-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/app/assets/img/foundation.jpg"); }
+
+.section-page__info {
+  padding-top: 8rem;
+  background-color: #eee; }
+
+.section-fundamentals {
+  background-color: #644B46;
+  color: #fff; }
+
+.card-beliefs {
+  border: 1px solid white;
+  background-color: #9762cc;
+  border-radius: .3rem;
+  padding: 0; }
+  .card-beliefs__link:link, .card-beliefs__link:visited {
+    text-decoration: none;
+    color: #fff; }
+  .card-beliefs:hover {
+    background-color: #d59541; }
+  .card-beliefs__icon {
+    margin-right: 2rem; }
+  .card-beliefs__title {
+    height: 5rem;
+    background-color: #35404F;
+    padding-top: .5rem; }
+  .card-beliefs .card-beliefs__content {
+    padding: 3rem; }
+
 .vine-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg");
   background-size: cover; }
@@ -1003,11 +1023,11 @@ button.button:hover {
 .children-activity::after {
   content: "";
   display: block;
-  width: 60rem;
+  width: 80rem;
   height: .2rem;
   background-color: #fff;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-bottom: 4rem;
   opacity: .2; }
 

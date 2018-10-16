@@ -16,6 +16,7 @@
       margin-right: $gutter-horizontal;
     }
   }
+
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) /2);
   }
@@ -41,8 +42,8 @@
 // }
 
 // CSS GRID
-.grid-container,
-.grid-fundamentals {
+.grid-container{
+// .grid-fundamentals 
   color: $color-white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -68,9 +69,9 @@
   }
 }
 
-.grid-fundamentals__link {
-  text-decoration: none;
-}
+// .grid-fundamentals__link {
+//   text-decoration: none;
+// }
 
 // CSS GRID
 .grid-pastoral-care {
@@ -104,9 +105,9 @@
   }
 }
 
-.grid-fundamentals__title:hover {
-  background-color: purple;
-}
+// .grid-fundamentals__title:hover {
+//   background-color: purple;
+// }
 
 .card-1 {
   background-color: #35404F;
