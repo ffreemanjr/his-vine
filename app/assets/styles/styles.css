@@ -935,7 +935,7 @@ cite img {
   color: #333; }
 
 .pastor-intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/sherpherd.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/sherpherd.jpg"); }
 
 .section-pastoral-care {
   background-color: #644B46;
@@ -951,7 +951,7 @@ cite img {
     opacity: 1; }
   .pastor__img {
     border-radius: 6px;
-    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.7); }
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.7); }
 
 .cta__container {
   height: 15rem; }
@@ -961,7 +961,8 @@ cite img {
 
 .pastoral-card {
   border-radius: .5rem;
-  opacity: .7; }
+  opacity: .7;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.7); }
   .pastoral-card:hover {
     opacity: 1; }
   .pastoral-card__content {
@@ -979,7 +980,7 @@ cite img {
     background-color: #d59541; }
 
 .study-intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/open_bible.jpg"); }
 
 .section-archive {
   background-color: #eee;
@@ -1036,7 +1037,7 @@ button.button:hover {
   border-radius: 3px; }
 
 .worship-intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/worship.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/app/assets/img/worship.jpg"); }
 
 .normal-quote {
   margin-top: 0;
