@@ -788,7 +788,7 @@ cite img {
   color: #fff; }
 
 .card-beliefs {
-  border: 1px solid white;
+  border: 1px solid #fff;
   background-color: #9762cc;
   border-radius: .3rem;
   padding: 0; }
@@ -798,13 +798,47 @@ cite img {
   .card-beliefs:hover {
     background-color: #d59541; }
   .card-beliefs__icon {
-    margin-right: 2rem; }
+    margin-right: 1rem; }
   .card-beliefs__title {
-    height: 5rem;
+    min-height: 5rem;
     background-color: #35404F;
-    padding-top: .5rem; }
+    padding-top: .3rem; }
   .card-beliefs .card-beliefs__content {
     padding: 3rem; }
+
+.section-bookstore {
+  background-color: #ffefd5;
+  padding-top: 8rem; }
+  .section-bookstore__heading {
+    font-size: 3rem; }
+
+.publishing-banner {
+  display: flex;
+  background-color: #5f9ea0;
+  padding: 0; }
+  .publishing-banner__image {
+    height: 20rem; }
+  .publishing-banner__group {
+    padding: 2rem 2rem 0 2rem;
+    margin-left: 2rem; }
+  .publishing-banner__heading {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem; }
+  .publishing-banner__info {
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding-bottom: 1rem; }
+  .publishing-banner__link:link, .publishing-banner__link:visited {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border: .1rem solid #91634f;
+    border-radius: .4rem; }
+  .publishing-banner__link:hover {
+    background-color: #91634f; }
 
 .vine-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(80, 68, 18, 0.6)), url("/app/assets/img/open_bible.jpg");
