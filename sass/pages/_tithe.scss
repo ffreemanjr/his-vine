@@ -1,6 +1,17 @@
+.tithe-intro {
+  background-color: $color-primary-brown;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/app/assets/img/tithe-header.jpg');
+  background-size: cover;
+}
+
 .section-video {
   padding: 4rem 4rem 12rem 4rem;
   background-color: $color-grey-light;
+
+}
+
+.tithe-video {
+  border-radius: 4px;
 }
 
 .section-tithe {

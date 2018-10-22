@@ -704,6 +704,16 @@ cite img {
   color: #fff;
   padding-top: 10rem; }
 
+.affiliations-intro {
+  background-color: #000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/affiliations.jpg"); }
+
+.section-certificate {
+  background-color: #eee; }
+
+.certificate {
+  text-align-last: center; }
+
 .cta {
   padding-bottom: 0; }
   .cta__wrapper {
@@ -913,9 +923,17 @@ cite img {
   background-color: #eee;
   color: #333; }
 
+.tithe-intro {
+  background-color: #644B46;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/tithe-header.jpg");
+  background-size: cover; }
+
 .section-video {
   padding: 4rem 4rem 12rem 4rem;
   background-color: #eee; }
+
+.tithe-video {
+  border-radius: 4px; }
 
 .section-tithe {
   background-color: #35404F;
