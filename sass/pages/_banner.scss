@@ -1,0 +1,23 @@
+.banner-body {
+  background: linear-gradient(to bottom, #663399, #644b46, #fec051, #FEE140, #FA709A );
+	background-repeat: no-repeat;
+  margin: 0;
+
+  &:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #21D4FD 75%);
+    position: relative;
+  }
+}
+
+.banner-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/app/assets/img/banner-header.jpg');
+}
+
+
+

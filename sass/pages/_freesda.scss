@@ -27,7 +27,8 @@
   box-shadow: 0 .3rem 2.6rem 0 rgba(0, 0, 0, 0.2);
 }
 
-.freesda-main  {
+.freesda-main,
+.banner-main  {
   background-color: #f7f7f7;
   padding: 2rem;
   border-radius: 1rem;
@@ -42,14 +43,3 @@
   }
 }
 
-.freesda-main__footer {
-  position: absolute;
-  right: 0;
-  left: 0;
-}
-
-.freesda-sub__footer {
-  position: absolute;
-  right: 0;
-  left: 0;  
-}

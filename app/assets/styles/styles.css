@@ -678,6 +678,18 @@ cite img {
     text-decoration: none;
     margin-right: 20px; }
 
+.freesda-main__footer,
+.banner-main__footer {
+  position: absolute;
+  right: 0;
+  left: 0; }
+
+.freesda-sub__footer,
+.banner-sub__footer {
+  position: absolute;
+  right: 0;
+  left: 0; }
+
 /* ============= MAIN HEADER BEGINS HERE ============== */
 .main-header {
   height: 100vh;
@@ -713,6 +725,23 @@ cite img {
 
 .certificate {
   text-align-last: center; }
+
+.banner-body {
+  background: linear-gradient(to bottom, #663399, #644b46, #fec051, #FEE140, #FA709A);
+  background-repeat: no-repeat;
+  margin: 0; }
+  .banner-body:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #21D4FD 75%);
+    position: relative; }
+
+.banner-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/banner-header.jpg"); }
 
 .cta {
   padding-bottom: 0; }
@@ -765,26 +794,19 @@ cite img {
   border-radius: 2rem;
   box-shadow: 0 0.3rem 2.6rem 0 rgba(0, 0, 0, 0.2); }
 
-.freesda-main {
+.freesda-main,
+.banner-main {
   background-color: #f7f7f7;
   padding: 2rem;
   border-radius: 1rem;
   color: #6b6b6b;
   margin: 10rem 20rem; }
-  .freesda-main__item:link, .freesda-main__item:visited {
+  .freesda-main__item:link, .freesda-main__item:visited,
+  .banner-main__item:link,
+  .banner-main__item:visited {
     text-decoration: none;
     color: #6b6b6b;
     border-bottom: 3px solid #6b6b6b; }
-
-.freesda-main__footer {
-  position: absolute;
-  right: 0;
-  left: 0; }
-
-.freesda-sub__footer {
-  position: absolute;
-  right: 0;
-  left: 0; }
 
 .fundamental-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/app/assets/img/foundation.jpg"); }
