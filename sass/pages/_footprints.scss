@@ -1,0 +1,79 @@
+.footprints-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/app/assets/img/footprints.jpg');
+}
+
+.section-biblical-footprints {
+  background-color: $color-grey-light;
+  color: $color-grey;
+}
+
+.section-lessons {
+  color: $color-white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/app/assets/img/study.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+// .card-lesson {
+//   border: 1px solid white;
+//   background-color: $color-primary-purple-light;
+//   opacity: .7;
+
+//   &:hover {
+//     background-color: $color-primary-orange;
+//   }
+
+//   &__title {
+//     color: $color-white;
+//     padding-top: 1.5rem;
+//   }
+
+//   &__icon {
+//     color: white;
+//     padding-bottom: 1rem;
+//   }
+
+//   &__content {
+//     color: $color-white;
+//     padding-bottom: 1.5rem;
+//   }
+// }
+
+// .section-lessons a:link {
+//   text-decoration: none;
+// }
+
+// button.button:hover {
+//   border-bottom: green 1px solid;
+//   color: white;
+// }
+
+// .cta-header {
+//   padding-top: 0;
+//   color: $color-white;
+// }
+
+// .cta-form-control,
+// .cta-button {
+//   border-radius: .5rem;
+// }
+
+// .cta-button:hover {
+//   background-color: $color-blue-grey;
+//   color: $color-white;
+//   border: none;
+// }
+
+
+// .popup__table {
+//   background-color: $color-grey-light;
+// }
+
+// #treasures {
+//   border-radius: 3px;
+// }
+
+
+

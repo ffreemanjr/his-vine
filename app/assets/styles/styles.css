@@ -770,6 +770,21 @@ cite img {
     text-transform: uppercase;
     cursor: pointer; }
 
+.footprints-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/footprints.jpg"); }
+
+.section-biblical-footprints {
+  background-color: #eee;
+  color: #333; }
+
+.section-lessons {
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/study.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
 .freesda-body {
   background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A);
   background-repeat: no-repeat;
