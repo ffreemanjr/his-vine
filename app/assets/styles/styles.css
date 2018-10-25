@@ -553,6 +553,80 @@ cite img {
     padding-right: 0;
     text-align: center; }
 
+.grid-footprints__wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5 1fr);
+  grid-gap: 1.6rem;
+  grid-template-areas: ". . . . . . ." ". footprint-box footprint-box footprint-box footprint-box ." ". footprint-box footprint-box footprint-box footprint-box ." ". footprint-box footprint-box footprint-box footprint-box ." ". footprint-box footprint-box footprint-box footprint-box ."; }
+
+.footprint-box {
+  color: #fff; }
+  .footprint-box-1 {
+    background-color: purple;
+    grid-column: 2/3;
+    grid-row: 2/3; }
+  .footprint-box-2 {
+    background-color: green;
+    grid-column: 3/4;
+    grid-row: 2/3; }
+  .footprint-box-3 {
+    background-color: blue;
+    grid-column: 4/5;
+    grid-row: 2/3; }
+  .footprint-box-4 {
+    background-color: red;
+    grid-column: 5/6;
+    grid-row: 2/3; }
+  .footprint-box-5 {
+    background-color: goldenrod;
+    grid-column: 2/3;
+    grid-row: 3/4; }
+  .footprint-box-6 {
+    background-color: purple;
+    grid-column: 3/4;
+    grid-row: 3/4; }
+  .footprint-box-7 {
+    background-color: purple;
+    grid-column: 4/5;
+    grid-row: 3/4; }
+  .footprint-box-8 {
+    background-color: purple;
+    grid-column: 5/6;
+    grid-row: 3/4; }
+  .footprint-box-9 {
+    background-color: purple;
+    grid-column: 2/3;
+    grid-row: 4/5; }
+  .footprint-box-10 {
+    background-color: purple;
+    grid-column: 3/4;
+    grid-row: 4/5; }
+  .footprint-box-11 {
+    background-color: purple;
+    grid-column: 4/5;
+    grid-row: 4/5; }
+  .footprint-box-12 {
+    background-color: purple;
+    grid-column: 5/6;
+    grid-row: 4/5; }
+  .footprint-box-13 {
+    background-color: purple;
+    grid-column: 2/3;
+    grid-row: 5/6; }
+  .footprint-box-14 {
+    background-color: purple;
+    grid-column: 3/4;
+    grid-row: 5/6; }
+  .footprint-box-15 {
+    background-color: purple;
+    grid-column: 4/5;
+    grid-row: 5/6; }
+  .footprint-box-16 {
+    background-color: purple;
+    grid-column: 5/6;
+    grid-row: 5/6; }
+
 .card-1 {
   background-color: #35404F; }
 

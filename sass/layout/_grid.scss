@@ -105,6 +105,189 @@
   }
 }
 
+.grid-footprints__wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5 1fr);
+  grid-gap: 1.6rem;
+  grid-template-areas: ". . . . . . ."
+                       ". footprint-box footprint-box footprint-box footprint-box ."
+                       ". footprint-box footprint-box footprint-box footprint-box ."
+                       ". footprint-box footprint-box footprint-box footprint-box ."
+                       ". footprint-box footprint-box footprint-box footprint-box .";
+  
+}
+.footprint-box {
+  color: $color-white;
+
+  &-1 {
+    background-color: purple;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  &-2 {
+    background-color: green;
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  &-3 {
+    background-color: blue;
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  &-4 {
+    background-color: red;
+    grid-column: 5/6;
+    grid-row: 2/3;
+  }
+
+  &-5 {
+    background-color: goldenrod;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  &-6 {
+    background-color: purple;
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+
+  &-7 {
+    background-color: purple;
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+
+  &-8 {
+    background-color: purple;
+    grid-column: 5/6;
+    grid-row: 3/4;
+  }
+
+  &-9 {
+  background-color: purple;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  }
+
+  &-10 {
+  background-color: purple;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  }
+
+  &-11 {
+  background-color: purple;
+  grid-column: 4/5;
+  grid-row: 4/5;
+  }
+
+  &-12 {
+  background-color: purple;
+  grid-column: 5/6;
+  grid-row: 4/5;
+  }
+  &-13 {
+  background-color: purple;
+  grid-column: 2/3;
+  grid-row: 5/6;
+  }
+
+  &-14 {
+  background-color: purple;
+  grid-column: 3/4;
+  grid-row: 5/6;
+  }
+
+  &-15 {
+  background-color: purple;
+  grid-column: 4/5;
+  grid-row: 5/6;
+  }
+
+  &-16 {
+  background-color: purple;
+  grid-column: 5/6;
+  grid-row: 5/6;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// .circle-2 {
+//   background-color: purple;
+// }
+
+// .circle-3 {
+//   background-color: purple;
+// }
+
+// .circle-4 {
+//   background-color: purple;
+// }
+
+// .circle-5 {
+//   background-color: purple;
+// }
+
+// .circle-6 {
+//   background-color: purple;
+// }
+
+// .circle-7 {
+//   background-color: purple;
+// }
+
+// .circle-8 {
+//   background-color: purple;
+// }
+
+// .circle-9 {
+//   background-color: purple;
+// }
+
+// .circle-10 {
+//   background-color: purple;
+// }
+
+// .circle-11 {
+//   background-color: purple;
+// }
+
+// .circle-12 {
+//   background-color: purple;
+// }
+
+// .circle-13 {
+//   background-color: purple;
+// }
+
+// .circle-14 {
+//   background-color: purple;
+// }
+
+// .circle-15 {
+//   background-color: purple;
+// }
+
+// .circle-16 {
+//   background-color: purple;
+// }
+
 // .grid-fundamentals__title:hover {
 //   background-color: purple;
 // }
