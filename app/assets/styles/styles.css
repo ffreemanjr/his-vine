@@ -851,6 +851,12 @@ cite img {
   background-color: #eee;
   color: #333; }
 
+.footprint-box {
+  height: 200px;
+  border-radius: 100%;
+  border: 1px solid burlywood;
+  width: 200px; }
+
 .section-lessons {
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/study.jpg");
