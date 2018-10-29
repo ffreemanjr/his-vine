@@ -555,76 +555,77 @@ cite img {
 
 .grid-footprints__wrapper {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5 1fr);
-  grid-gap: 1.6rem;
-  grid-template-areas: ". . . . . . ." ". footprint-box footprint-box footprint-box footprint-box ." ". footprint-box footprint-box footprint-box footprint-box ." ". footprint-box footprint-box footprint-box footprint-box ." ". footprint-box footprint-box footprint-box footprint-box ."; }
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  grid-template-areas: ". . . . . . . . . . . ." ". . . . footprint-box footprint-box footprint-box footprint-box . . . ." ". . . . footprint-box footprint-box footprint-box footprint-box . . . ." ". . . . footprint-box footprint-box footprint-box footprint-box . . . ." ". . . . footprint-box footprint-box footprint-box footprint-box . . . ."; }
 
 .footprint-box {
   color: #fff; }
   .footprint-box-1 {
-    background-color: purple;
-    grid-column: 2/3;
+    background-color: #F64C58;
+    grid-column: 5/6;
     grid-row: 2/3; }
   .footprint-box-2 {
-    background-color: green;
-    grid-column: 3/4;
+    background-color: #2EA3A5;
+    grid-column: 6/7;
     grid-row: 2/3; }
   .footprint-box-3 {
-    background-color: blue;
-    grid-column: 4/5;
+    background-color: #F6346E;
+    grid-column: 7/8;
     grid-row: 2/3; }
   .footprint-box-4 {
-    background-color: red;
-    grid-column: 5/6;
+    background-color: #F3795B;
+    grid-column: 8/9;
     grid-row: 2/3; }
   .footprint-box-5 {
-    background-color: goldenrod;
-    grid-column: 2/3;
+    background-color: #4D7486;
+    grid-column: 5/6;
     grid-row: 3/4; }
   .footprint-box-6 {
-    background-color: purple;
-    grid-column: 3/4;
+    background-color: #B1D452;
+    grid-column: 6/7;
     grid-row: 3/4; }
   .footprint-box-7 {
-    background-color: purple;
-    grid-column: 4/5;
+    background-color: #1D3A3F;
+    grid-column: 7/8;
     grid-row: 3/4; }
   .footprint-box-8 {
-    background-color: purple;
-    grid-column: 5/6;
+    background-color: #2EA3A5;
+    grid-column: 8/9;
     grid-row: 3/4; }
   .footprint-box-9 {
-    background-color: purple;
-    grid-column: 2/3;
+    background-color: #1D3A3F;
+    grid-column: 5/6;
     grid-row: 4/5; }
   .footprint-box-10 {
-    background-color: purple;
-    grid-column: 3/4;
+    background-color: #3CBFBD;
+    grid-column: 6/7;
     grid-row: 4/5; }
   .footprint-box-11 {
-    background-color: purple;
-    grid-column: 4/5;
+    background-color: #A5D4D2;
+    grid-column: 7/8;
     grid-row: 4/5; }
   .footprint-box-12 {
-    background-color: purple;
-    grid-column: 5/6;
+    background-color: #8FC954;
+    grid-column: 8/9;
     grid-row: 4/5; }
   .footprint-box-13 {
-    background-color: purple;
-    grid-column: 2/3;
+    background-color: #F6346E;
+    grid-column: 5/6;
     grid-row: 5/6; }
   .footprint-box-14 {
-    background-color: purple;
-    grid-column: 3/4;
+    background-color: #F64C58;
+    grid-column: 6/7;
     grid-row: 5/6; }
   .footprint-box-15 {
-    background-color: purple;
-    grid-column: 4/5;
+    background-color: #4D7486;
+    grid-column: 7/8;
     grid-row: 5/6; }
   .footprint-box-16 {
-    background-color: purple;
-    grid-column: 5/6;
+    background-color: #F3795B;
+    grid-column: 8/9;
     grid-row: 5/6; }
 
 .card-1 {
@@ -852,10 +853,19 @@ cite img {
   color: #333; }
 
 .footprint-box {
-  height: 200px;
-  border-radius: 100%;
-  border: 1px solid burlywood;
-  width: 200px; }
+  height: 300px;
+  width: 316px; }
+  .footprint-box__number {
+    font-size: 6.4rem;
+    padding-top: 4rem; }
+  .footprint-box::after {
+    content: "";
+    display: block;
+    width: 10rem;
+    height: .2rem;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 4rem; }
 
 .section-lessons {
   color: #fff;

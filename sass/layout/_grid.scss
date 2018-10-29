@@ -107,111 +107,113 @@
 
 .grid-footprints__wrapper {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5 1fr);
-  grid-gap: 1.6rem;
-  grid-template-areas: ". . . . . . ."
-                       ". footprint-box footprint-box footprint-box footprint-box ."
-                       ". footprint-box footprint-box footprint-box footprint-box ."
-                       ". footprint-box footprint-box footprint-box footprint-box ."
-                       ". footprint-box footprint-box footprint-box footprint-box .";
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  grid-template-areas: ". . . . . . . . . . . ."
+                       ". . . . footprint-box footprint-box footprint-box footprint-box . . . ."
+                       ". . . . footprint-box footprint-box footprint-box footprint-box . . . ."
+                       ". . . . footprint-box footprint-box footprint-box footprint-box . . . ."
+                       ". . . . footprint-box footprint-box footprint-box footprint-box . . . .";
+                       
   
 }
 .footprint-box {
   color: $color-white;
 
   &-1 {
-    background-color: purple;
-    grid-column: 2/3;
+    background-color: #F64C58;
+    grid-column: 5/6;
     grid-row: 2/3;
   }
 
   &-2 {
-    background-color: green;
-    grid-column: 3/4;
+    background-color: #2EA3A5;
+    grid-column: 6/7;
     grid-row: 2/3;
   }
 
   &-3 {
-    background-color: blue;
-    grid-column: 4/5;
+    background-color: #F6346E;
+    grid-column: 7/8;
     grid-row: 2/3;
   }
 
   &-4 {
-    background-color: red;
-    grid-column: 5/6;
+    background-color: #F3795B;
+    grid-column: 8/9;
     grid-row: 2/3;
   }
 
   &-5 {
-    background-color: goldenrod;
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-
-  &-6 {
-    background-color: purple;
-    grid-column: 3/4;
-    grid-row: 3/4;
-  }
-
-  &-7 {
-    background-color: purple;
-    grid-column: 4/5;
-    grid-row: 3/4;
-  }
-
-  &-8 {
-    background-color: purple;
+    background-color: #4D7486;
     grid-column: 5/6;
     grid-row: 3/4;
   }
 
+  &-6 {
+    background-color: #B1D452;
+    grid-column: 6/7;
+    grid-row: 3/4;
+  }
+
+  &-7 {
+    background-color: #1D3A3F;
+    grid-column: 7/8;
+    grid-row: 3/4;
+  }
+
+  &-8 {
+    background-color: #2EA3A5;
+    grid-column: 8/9;
+    grid-row: 3/4;
+  }
+
   &-9 {
-  background-color: purple;
-  grid-column: 2/3;
+  background-color: #1D3A3F;
+  grid-column: 5/6;
   grid-row: 4/5;
   }
 
   &-10 {
-  background-color: purple;
-  grid-column: 3/4;
+  background-color: #3CBFBD;
+  grid-column: 6/7;
   grid-row: 4/5;
   }
 
   &-11 {
-  background-color: purple;
-  grid-column: 4/5;
+  background-color: #A5D4D2;
+  grid-column: 7/8;
   grid-row: 4/5;
   }
 
   &-12 {
-  background-color: purple;
-  grid-column: 5/6;
+  background-color: #8FC954;
+  grid-column: 8/9;
   grid-row: 4/5;
   }
   &-13 {
-  background-color: purple;
-  grid-column: 2/3;
+  background-color: #F6346E;
+  grid-column: 5/6;
   grid-row: 5/6;
   }
 
   &-14 {
-  background-color: purple;
-  grid-column: 3/4;
+  background-color: #F64C58;
+  grid-column: 6/7;
   grid-row: 5/6;
   }
 
   &-15 {
-  background-color: purple;
-  grid-column: 4/5;
+  background-color: #4D7486;
+  grid-column: 7/8;
   grid-row: 5/6;
   }
 
   &-16 {
-  background-color: purple;
-  grid-column: 5/6;
+  background-color: #F3795B;
+  grid-column: 8/9;
   grid-row: 5/6;
   }
 
