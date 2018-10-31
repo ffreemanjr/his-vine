@@ -567,66 +567,98 @@ cite img {
     background-color: #F64C58;
     grid-column: 5/6;
     grid-row: 2/3; }
+    .footprint-box-1:hover {
+      border-top: .5rem solid #F64C58; }
   .footprint-box-2 {
     background-color: #2EA3A5;
     grid-column: 6/7;
     grid-row: 2/3; }
+    .footprint-box-2:hover {
+      border-top: .5rem solid #2EA3A5; }
   .footprint-box-3 {
     background-color: #F6346E;
     grid-column: 7/8;
     grid-row: 2/3; }
+    .footprint-box-3:hover {
+      border-top: .5rem solid #F6346E; }
   .footprint-box-4 {
     background-color: #F3795B;
     grid-column: 8/9;
     grid-row: 2/3; }
+    .footprint-box-4:hover {
+      border-top: .5rem solid #F3795B; }
   .footprint-box-5 {
     background-color: #4D7486;
     grid-column: 5/6;
     grid-row: 3/4; }
+    .footprint-box-5:hover {
+      border-top: .5rem solid #4D7486; }
   .footprint-box-6 {
     background-color: #B1D452;
     grid-column: 6/7;
     grid-row: 3/4; }
+    .footprint-box-6:hover {
+      border-top: .5rem solid #B1D452; }
   .footprint-box-7 {
     background-color: #1D3A3F;
     grid-column: 7/8;
     grid-row: 3/4; }
+    .footprint-box-7:hover {
+      border-top: .5rem solid #1D3A3F; }
   .footprint-box-8 {
     background-color: #2EA3A5;
     grid-column: 8/9;
     grid-row: 3/4; }
+    .footprint-box-8:hover {
+      border-top: .5rem solid #2EA3A5; }
   .footprint-box-9 {
     background-color: #1D3A3F;
     grid-column: 5/6;
     grid-row: 4/5; }
+    .footprint-box-9:hover {
+      border-top: .5rem solid #1D3A3F; }
   .footprint-box-10 {
     background-color: #3CBFBD;
     grid-column: 6/7;
     grid-row: 4/5; }
+    .footprint-box-10:hover {
+      border-top: .5rem solid #3CBFBD; }
   .footprint-box-11 {
-    background-color: #A5D4D2;
+    background-color: #F6346E;
     grid-column: 7/8;
     grid-row: 4/5; }
+    .footprint-box-11:hover {
+      border-top: .5rem solid #F6346E; }
   .footprint-box-12 {
     background-color: #8FC954;
     grid-column: 8/9;
     grid-row: 4/5; }
+    .footprint-box-12:hover {
+      border-top: .5rem solid #8FC954; }
   .footprint-box-13 {
-    background-color: #F6346E;
+    background-color: #50A3D8;
     grid-column: 5/6;
     grid-row: 5/6; }
+    .footprint-box-13:hover {
+      border-top: .5rem solid #50A3D8; }
   .footprint-box-14 {
-    background-color: #F64C58;
+    background-color: #dcd9cd;
     grid-column: 6/7;
     grid-row: 5/6; }
+    .footprint-box-14:hover {
+      border-top: .5rem solid #dcd9cd; }
   .footprint-box-15 {
     background-color: #4D7486;
     grid-column: 7/8;
     grid-row: 5/6; }
+    .footprint-box-15:hover {
+      border-top: .5rem solid #4D7486; }
   .footprint-box-16 {
     background-color: #F3795B;
     grid-column: 8/9;
     grid-row: 5/6; }
+    .footprint-box-16:hover {
+      border-top: .5rem solid #F3795B; }
 
 .card-1 {
   background-color: #35404F; }
@@ -853,27 +885,32 @@ cite img {
   color: #333; }
 
 .footprint-box {
-  height: 300px;
-  width: 316px; }
+  height: 23.2rem;
+  width: 23.7rem; }
   .footprint-box__number {
-    font-size: 6.4rem;
-    padding-top: 4rem; }
-  .footprint-box::after {
-    content: "";
-    display: block;
-    width: 10rem;
-    height: .2rem;
+    font-size: 3.4rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem; }
+  .footprint-box__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 0 3rem; }
+  .footprint-box a:link,
+  .footprint-box a:visited {
+    color: #fff;
+    text-decoration: none; }
+  .footprint-box:hover {
     background-color: #fff;
-    margin: auto;
-    margin-bottom: 4rem; }
-
-.section-lessons {
-  color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/study.jpg");
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
+    color: #35404F;
+    cursor: pointer; }
+    .footprint-box:hover a:link,
+    .footprint-box:hover a:visited {
+      color: #35404F;
+      text-decoration: none; }
+  .footprint-box a:hover {
+    color: #35404F; }
 
 .freesda-body {
   background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A);

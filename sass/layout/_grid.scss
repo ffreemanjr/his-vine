@@ -126,95 +126,157 @@
     background-color: #F64C58;
     grid-column: 5/6;
     grid-row: 2/3;
+
+    &:hover {
+      border-top: .5rem solid #F64C58;
+    }
   }
 
   &-2 {
     background-color: #2EA3A5;
     grid-column: 6/7;
     grid-row: 2/3;
+
+    &:hover {
+      border-top: .5rem solid #2EA3A5;
+    }
   }
 
   &-3 {
     background-color: #F6346E;
     grid-column: 7/8;
     grid-row: 2/3;
+    &:hover {
+      border-top: .5rem solid #F6346E;
+    }
   }
 
   &-4 {
     background-color: #F3795B;
     grid-column: 8/9;
     grid-row: 2/3;
+    &:hover {
+      border-top: .5rem solid #F3795B;
+    }
   }
 
   &-5 {
     background-color: #4D7486;
     grid-column: 5/6;
     grid-row: 3/4;
+    &:hover {
+      border-top: .5rem solid #4D7486;
+    }
   }
 
   &-6 {
     background-color: #B1D452;
     grid-column: 6/7;
     grid-row: 3/4;
+    &:hover {
+      border-top: .5rem solid #B1D452;
+    }
   }
 
   &-7 {
     background-color: #1D3A3F;
     grid-column: 7/8;
     grid-row: 3/4;
+
+    &:hover {
+      border-top: .5rem solid #1D3A3F;
+    }
   }
 
   &-8 {
     background-color: #2EA3A5;
     grid-column: 8/9;
     grid-row: 3/4;
+    
+    &:hover {
+      border-top: .5rem solid #2EA3A5;
+    }
   }
 
   &-9 {
   background-color: #1D3A3F;
   grid-column: 5/6;
   grid-row: 4/5;
+    
+    &:hover {
+      border-top: .5rem solid #1D3A3F;
+    }
   }
 
   &-10 {
   background-color: #3CBFBD;
   grid-column: 6/7;
   grid-row: 4/5;
+    
+    &:hover {
+      border-top: .5rem solid #3CBFBD;
+    }
   }
 
   &-11 {
-  background-color: #A5D4D2;
+  background-color: #F6346E;
   grid-column: 7/8;
   grid-row: 4/5;
+    
+    &:hover {
+      border-top: .5rem solid #F6346E;
+    }
   }
 
   &-12 {
   background-color: #8FC954;
   grid-column: 8/9;
   grid-row: 4/5;
+    
+    &:hover {
+      border-top: .5rem solid #8FC954;
+    }
   }
+
   &-13 {
-  background-color: #F6346E;
+  background-color: #50A3D8;
   grid-column: 5/6;
   grid-row: 5/6;
+
+    
+  &:hover {
+    border-top: .5rem solid #50A3D8;
+  }
   }
 
   &-14 {
-  background-color: #F64C58;
+  background-color: #dcd9cd;
   grid-column: 6/7;
   grid-row: 5/6;
+    
+    &:hover {
+      border-top: .5rem solid #dcd9cd;
+    }
   }
 
   &-15 {
   background-color: #4D7486;
   grid-column: 7/8;
   grid-row: 5/6;
+    
+    &:hover {
+      border-top: .5rem solid #4D7486;
+    }
   }
 
   &-16 {
   background-color: #F3795B;
   grid-column: 8/9;
   grid-row: 5/6;
+    
+    &:hover {
+      border-top: .5rem solid #F3795B;
+    }
   }
 
 }
