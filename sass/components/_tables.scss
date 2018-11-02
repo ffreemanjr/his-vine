@@ -1,12 +1,44 @@
+#christ,
 #customers,
-#treasures {
+#holy-spirit,
+#introduction,
+#miracles,
+#sin,
+#study-understand,
+#treasures,
+#prophecy,
+#coming-events,
+#law,
+#sabbath,
+#liberty,
+#christ-life,
+#christian-growth,
+#prayer,
+#christian-service,
+#admonitions {
     font-family: "Roboto",  sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
 #customers a:link,
+#christ a:link,
+#holy-spirit a:link,
+#miracles a:link,
 #treasures a:link,
+#introduction a:link,
+#sin a:link,
+#study-understand a:link,
+#prophecy a:link,
+#coming-events a:link,
+#law a:link,
+#sabbath a:link,
+#liberty a:link,
+#christ-life a:link,
+#christian-growth a:link,
+#prayer a:link,
+#christian-service a:link,
+#admonitions a:link,
 .popup__item a:visited {
     text-decoration: none;
     color: $color-grey;    
@@ -19,28 +51,124 @@
 
 #customers td,
 #customers th,
+#introduction td,
+#christ td,
+#christ th,
+#holy-spirit td,
+#holy-spirit th,
+#miracles td,
+#miracles th,
+#introduction th,
+#sin td,
+#sin th,
+#prophecy td,
+#prophecy th,
+#coming-events td,
+#coming-events th,
+#law td,
+#law th,
+#sabbath td,
+#sabbath th,
+#liberty td,
+#liberty th,
+#study-understand td,
+#study-understand th,
+#christ-life td,
+#christ-life th,
+#christian-growth td,
+#christian-growth th,
+#prayer td,
+#prayer th,
+#christian-service td,
+#christian-service th,
+#admonitions td,
+#admonitions th,
 #treasures td,
-#treasures th, {
+#treasures th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
+#christ tr,
+#holy-spirit tr,
+#miracles tr,
 #customers tr,
-#treasures tr{
+#introduction tr,
+#sin tr,
+#study-understand tr,
+#prophecy tr,
+#coming-events tr,
+#law tr,
+#sabbath tr,
+#liberty tr,
+#christ-life tr,
+#christian-growth tr,
+#prayer tr,
+#christian-service tr,
+#admonitions tr,
+#treasures tr {
     font-size: 2rem;
 } 
 
+#christ tr:nth-child(even),
+#holy-spirit tr:nth-child(even),
+#miracles tr:nth-child(even),
 #customers tr:nth-child(even),
+#introduction tr:nth-child(even),
+#sin tr:nth-child(even),
+#study-understand tr:nth-child(even),
+#prophecy tr:nth-child(even),
+#coming-events tr:nth-child(even),
+#law tr:nth-child(even),
+#sabbath tr:nth-child(even),
+#liberty tr:nth-child(even),
+#christ-life  tr:nth-child(even),
+#christian-growth  tr:nth-child(even),
+#prayer  tr:nth-child(even),
+#christian-service  tr:nth-child(even),
+#admonitions  tr:nth-child(even),
 #treasures tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+#christ tr:hover,
+#holy-spirit tr:hover,
+#miracles tr:hover,
 #customers tr:hover,
-#treasures tr:hover{
+#introduction tr:hover,
+#sin tr:hover,
+#study-understand tr:hover,
+#prophecy tr:hover,
+#coming-events tr:hover,
+#law tr:hover,
+#sabbath tr:hover,
+#liberty tr:hover,
+#christ-life  tr,
+#christian-growth  tr,
+#prayer  tr,
+#christian-service  tr,
+#admonitions  tr,
+#treasures tr:hover {
     background-color: #ddd;
 }
 
+#christ th,
+#holy-spirit th,
+#miracles th,
 #customers th,
+#introduction th,
+#sin th,
+#study-understand th,
+#prophecy th,
+#coming-events th,
+#law th,
+#sabbath th,
+#liberty th,
+#christ-life  th,
+#christian-growth  th,
+#prayer  th,
+#christian-service  th,
+#admonitions  th,
 #treasures th {
     padding-top: 12px;
     padding-bottom: 12px;
