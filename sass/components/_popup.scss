@@ -20,8 +20,7 @@
     opacity: 0;
     transform: translate(-50%, -50%) scale(.5);
     transition: all .4s .2s;
-    overflow-y: scroll;
-    
+    overflow-y: scroll;    
   }
 
   &__header {
@@ -103,12 +102,11 @@
 
   &__item a:hover {
     background-color: $color-primary-orange;
-    color: white;
+    color: $color-white;
   }
 
   &__footer {
     background-color: $color-primary-orange;
     height: 20rem;
-  }
-   
+  }   
 }

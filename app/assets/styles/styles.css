@@ -364,7 +364,7 @@ cite img {
     color: #333; }
   .popup__item a:hover {
     background-color: #d59541;
-    color: white; }
+    color: #fff; }
   .popup__footer {
     background-color: #d59541;
     height: 20rem; }
@@ -421,7 +421,7 @@ cite img {
 #law,
 #sabbath,
 #liberty,
-#christ-life,
+#life-in-christ,
 #christian-growth,
 #prayer,
 #christian-service,
@@ -443,7 +443,7 @@ cite img {
 #law a:link,
 #sabbath a:link,
 #liberty a:link,
-#christ-life a:link,
+#life-in-christ a:link,
 #christian-growth a:link,
 #prayer a:link,
 #christian-service a:link,
@@ -459,13 +459,13 @@ cite img {
 #customers td,
 #customers th,
 #introduction td,
+#introduction th,
 #christ td,
 #christ th,
 #holy-spirit td,
 #holy-spirit th,
 #miracles td,
 #miracles th,
-#introduction th,
 #sin td,
 #sin th,
 #prophecy td,
@@ -480,8 +480,8 @@ cite img {
 #liberty th,
 #study-understand td,
 #study-understand th,
-#christ-life td,
-#christ-life th,
+#life-in-christ td,
+#life-in-christ th,
 #christian-growth td,
 #christian-growth th,
 #prayer td,
@@ -507,7 +507,7 @@ cite img {
 #law tr,
 #sabbath tr,
 #liberty tr,
-#christ-life tr,
+#life-in-christ tr,
 #christian-growth tr,
 #prayer tr,
 #christian-service tr,
@@ -527,7 +527,7 @@ cite img {
 #law tr:nth-child(even),
 #sabbath tr:nth-child(even),
 #liberty tr:nth-child(even),
-#christ-life tr:nth-child(even),
+#life-in-christ tr:nth-child(even),
 #christian-growth tr:nth-child(even),
 #prayer tr:nth-child(even),
 #christian-service tr:nth-child(even),
@@ -547,7 +547,7 @@ cite img {
 #law tr:hover,
 #sabbath tr:hover,
 #liberty tr:hover,
-#christ-life tr,
+#life-in-christ tr,
 #christian-growth tr,
 #prayer tr,
 #christian-service tr,
@@ -567,7 +567,7 @@ cite img {
 #law th,
 #sabbath th,
 #liberty th,
-#christ-life th,
+#life-in-christ th,
 #christian-growth th,
 #prayer th,
 #christian-service th,
