@@ -1,3 +1,7 @@
+#home,
+#health,
+#kingdom,
+#game,
 #christ,
 #customers,
 #holy-spirit,
@@ -21,6 +25,10 @@
     width: 100%;
 }
 
+#home a:link,
+#health a:link,
+#kingdom a:link,
+#game a:link,
 #customers a:link,
 #christ a:link,
 #holy-spirit a:link,
@@ -84,6 +92,14 @@
 #christian-service th,
 #admonitions td,
 #admonitions th,
+#home td,
+#home th,
+#kingdom td,
+#kingdom th,
+#health td,
+#health th,
+#game td, 
+#game th,
 #treasures td,
 #treasures th {
     border: 1px solid #ddd;
@@ -106,6 +122,10 @@
 #christian-growth tr,
 #prayer tr,
 #christian-service tr,
+#home tr,
+#health tr,
+#kingdom tr,
+#game tr,
 #admonitions tr,
 #treasures tr {
     font-size: 2rem;
@@ -128,6 +148,10 @@
 #prayer tr:nth-child(even),
 #christian-service tr:nth-child(even),
 #admonitions tr:nth-child(even),
+#home tr:nth-child(even),
+#health tr:nth-child(even),
+#kingdom tr:nth-child(even),
+#game tr:nth-child(even),
 #treasures tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -144,11 +168,15 @@
 #law tr:hover,
 #sabbath tr:hover,
 #liberty tr:hover,
-#life-in-christ tr,
-#christian-growth tr,
-#prayer tr,
-#christian-service tr,
-#admonitions tr,
+#life-in-christ tr:hover,
+#christian-growth tr:hover,
+#prayer tr:hover,
+#christian-service tr:hover,
+#admonitions tr:hover,
+#home tr:hover,
+#health tr:hover,
+#kingdom tr:hover,
+#game tr:hover,
 #treasures tr:hover {
     background-color: #ddd;
 }
@@ -170,6 +198,10 @@
 #prayer th,
 #christian-service th,
 #admonitions th,
+#home th,
+#health th,
+#kingdom th,
+#game th,
 #treasures th {
     padding-top: 12px;
     padding-bottom: 12px;

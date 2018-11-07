@@ -1,0 +1,79 @@
+.bible-reading-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/app/assets/img/bible-readings.jpg');
+}
+
+.btn-adobe {
+  margin-left: 3.2rem;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 400;border-radius: .6rem;
+    background-color: $color-primary-purple-light;
+    color: $color-white;
+  }
+
+  &:hover {
+    background-color: $color-primary-purple;
+  }
+}
+
+.section-bookstore--small {
+  background-color: #ffefd5;
+  padding-top: 2rem;
+
+  &__heading--small {
+    font-size: 3rem;
+  }
+}
+
+.publishing-banner--small {
+  display: flex;
+  // flex-flow: column;
+  background-color: #5f9ea0;
+  padding:0;
+
+  &__image {
+    height: 100px;
+    width: 122px;
+  }
+
+  &__group {
+    padding: 2rem 2rem 0 2rem;
+    margin-left: 2rem;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    color: $color-black;
+    margin-bottom: 1rem;;
+  }
+
+  &__info {
+    color: $color-black;
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    font-size: 2rem;
+    color: $color-white;
+    text-decoration: none;
+    display: block;
+    border: .1rem solid #91634f;  
+    border-radius: .4rem;  
+  }
+
+  &__link:hover {
+    background-color: #91634f;
+    
+  }
+}

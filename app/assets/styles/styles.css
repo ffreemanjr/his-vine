@@ -230,7 +230,6 @@ cite img {
   text-transform: uppercase;
   padding: 1rem 2rem;
   display: inline-block;
-  display: inline-block;
   font-size: 2rem;
   width: 30rem;
   font-weight: 400;
@@ -408,6 +407,10 @@ cite img {
   .study-box:hover {
     transform: translateY(-2.5rem) scale(1.08); }
 
+#home,
+#health,
+#kingdom,
+#game,
 #christ,
 #customers,
 #holy-spirit,
@@ -430,6 +433,10 @@ cite img {
   border-collapse: collapse;
   width: 100%; }
 
+#home a:link,
+#health a:link,
+#kingdom a:link,
+#game a:link,
 #customers a:link,
 #christ a:link,
 #holy-spirit a:link,
@@ -490,6 +497,14 @@ cite img {
 #christian-service th,
 #admonitions td,
 #admonitions th,
+#home td,
+#home th,
+#kingdom td,
+#kingdom th,
+#health td,
+#health th,
+#game td,
+#game th,
 #treasures td,
 #treasures th {
   border: 1px solid #ddd;
@@ -511,6 +526,10 @@ cite img {
 #christian-growth tr,
 #prayer tr,
 #christian-service tr,
+#home tr,
+#health tr,
+#kingdom tr,
+#game tr,
 #admonitions tr,
 #treasures tr {
   font-size: 2rem; }
@@ -532,6 +551,10 @@ cite img {
 #prayer tr:nth-child(even),
 #christian-service tr:nth-child(even),
 #admonitions tr:nth-child(even),
+#home tr:nth-child(even),
+#health tr:nth-child(even),
+#kingdom tr:nth-child(even),
+#game tr:nth-child(even),
 #treasures tr:nth-child(even) {
   background-color: #f2f2f2; }
 
@@ -547,11 +570,15 @@ cite img {
 #law tr:hover,
 #sabbath tr:hover,
 #liberty tr:hover,
-#life-in-christ tr,
-#christian-growth tr,
-#prayer tr,
-#christian-service tr,
-#admonitions tr,
+#life-in-christ tr:hover,
+#christian-growth tr:hover,
+#prayer tr:hover,
+#christian-service tr:hover,
+#admonitions tr:hover,
+#home tr:hover,
+#health tr:hover,
+#kingdom tr:hover,
+#game tr:hover,
 #treasures tr:hover {
   background-color: #ddd; }
 
@@ -572,6 +599,10 @@ cite img {
 #prayer th,
 #christian-service th,
 #admonitions th,
+#home th,
+#health th,
+#kingdom th,
+#game th,
 #treasures th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -979,6 +1010,61 @@ cite img {
 
 .banner-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/app/assets/img/banner-header.jpg"); }
+
+.bible-reading-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/bible-readings.jpg"); }
+
+.btn-adobe {
+  margin-left: 3.2rem;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem; }
+  .btn-adobe:link, .btn-adobe:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 400;
+    border-radius: .6rem;
+    background-color: #9762cc;
+    color: #fff; }
+  .btn-adobe:hover {
+    background-color: #663399; }
+
+.section-bookstore--small {
+  background-color: #ffefd5;
+  padding-top: 2rem; }
+  .section-bookstore--small__heading--small {
+    font-size: 3rem; }
+
+.publishing-banner--small {
+  display: flex;
+  background-color: #5f9ea0;
+  padding: 0; }
+  .publishing-banner--small__image {
+    height: 100px;
+    width: 122px; }
+  .publishing-banner--small__group {
+    padding: 2rem 2rem 0 2rem;
+    margin-left: 2rem; }
+  .publishing-banner--small__heading {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1rem; }
+  .publishing-banner--small__info {
+    color: #000;
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding-bottom: 1rem; }
+  .publishing-banner--small__link:link, .publishing-banner--small__link:visited {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border: .1rem solid #91634f;
+    border-radius: .4rem; }
+  .publishing-banner--small__link:hover {
+    background-color: #91634f; }
 
 .cta {
   padding-bottom: 0; }
