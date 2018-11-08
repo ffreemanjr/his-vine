@@ -1033,7 +1033,9 @@ cite img {
 
 .section-bookstore--small {
   background-color: #ffefd5;
-  padding-top: 2rem; }
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: .4rem; }
   .section-bookstore--small__heading--small {
     font-size: 3rem; }
 
@@ -1042,29 +1044,43 @@ cite img {
   background-color: #5f9ea0;
   padding: 0; }
   .publishing-banner--small__image {
-    height: 100px;
+    height: 130px;
     width: 122px; }
-  .publishing-banner--small__group {
-    padding: 2rem 2rem 0 2rem;
-    margin-left: 2rem; }
+  .publishing-banner--small__group, .publishing-banner--small__donate-box {
+    padding: 2.6rem;
+    background-color: #5f9ea0;
+    color: #fff; }
+  .publishing-banner--small__donate-box:hover {
+    transform: none;
+    background-color: #203738;
+    color: #fff; }
+  .publishing-banner--small__watch-group {
+    padding: 2.5rem;
+    background-color: #91634f; }
   .publishing-banner--small__heading {
-    font-size: 2rem;
-    color: #000;
+    font-size: 2.2rem;
+    color: #fff;
     margin-bottom: 1rem; }
   .publishing-banner--small__info {
-    color: #000;
+    color: #fff;
     font-weight: normal;
-    font-size: 1.6rem;
-    padding-bottom: 1rem; }
+    font-size: 1.8rem;
+    padding-bottom: 2rem; }
   .publishing-banner--small__link:link, .publishing-banner--small__link:visited {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 400;
     color: #fff;
     text-decoration: none;
     display: block;
-    border: .1rem solid #91634f;
+    background-color: #91634f;
     border-radius: .4rem; }
   .publishing-banner--small__link:hover {
-    background-color: #91634f; }
+    background-color: #4e3428; }
+  .publishing-banner--small__facebook:link, .publishing-banner--small__facebook:visited {
+    background-color: #5F9EA0;
+    padding-left: 2rem; }
+  .publishing-banner--small__facebook:hover {
+    background-color: #54A4DE; }
 
 .cta {
   padding-bottom: 0; }

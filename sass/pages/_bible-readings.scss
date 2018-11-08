@@ -26,7 +26,9 @@
 
 .section-bookstore--small {
   background-color: #ffefd5;
-  padding-top: 2rem;
+  padding-top: 0;
+  padding-bottom:0;
+  border-radius: .4rem;
 
   &__heading--small {
     font-size: 3rem;
@@ -35,45 +37,69 @@
 
 .publishing-banner--small {
   display: flex;
-  // flex-flow: column;
   background-color: #5f9ea0;
   padding:0;
 
   &__image {
-    height: 100px;
+    height: 130px;
     width: 122px;
   }
 
-  &__group {
-    padding: 2rem 2rem 0 2rem;
-    margin-left: 2rem;
+  &__group,
+  &__donate-box {
+    padding: 2.6rem;
+    background-color: #5f9ea0;
+    color: $color-white;
+  }
+
+  &__donate-box:hover {
+    transform: none;
+    background-color: #203738;
+    color: $color-white;
+  }
+
+  &__watch-group {
+    padding: 2.5rem;
+    background-color: #91634f;
   }
 
   &__heading {
-    font-size: 2rem;
-    color: $color-black;
+    font-size: 2.2rem;
+    color: $color-white;
     margin-bottom: 1rem;;
   }
 
   &__info {
-    color: $color-black;
+    color: $color-white;
     font-weight: normal;
-    font-size: 1.6rem;
-    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
   }
 
   &__link:link,
   &__link:visited {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 400;
     color: $color-white;
     text-decoration: none;
     display: block;
-    border: .1rem solid #91634f;  
+    background-color: #91634f;  
     border-radius: .4rem;  
   }
 
   &__link:hover {
-    background-color: #91634f;
-    
+    background-color: #4e3428;    
   }
+
+  &__facebook:link,
+  &__facebook:visited {
+    background-color: #5F9EA0; 
+    padding-left: 2rem;
+  }
+
+  &__facebook:hover {
+    background-color: #54A4DE;   
+  }
+
+
 }
