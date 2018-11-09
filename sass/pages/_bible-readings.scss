@@ -2,6 +2,11 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/app/assets/img/bible-readings.jpg');
 }
 
+.section-read-book,
+.section-the-book {
+  background-color: #eee;
+}
+
 .btn-adobe {
   margin-left: 3.2rem;
   margin-top: 3.2rem;
@@ -25,7 +30,7 @@
 }
 
 .section-bookstore--small {
-  background-color: #ffefd5;
+  background-color: #eee;
   padding-top: 0;
   padding-bottom:0;
   border-radius: .4rem;
