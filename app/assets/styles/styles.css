@@ -305,7 +305,7 @@ cite img {
     left: 50%;
     transform: translate(-50%, -50%);
     max-height: 60rem;
-    width: 60%;
+    width: 50%;
     background-color: #d59541;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: .3rem;
@@ -354,11 +354,16 @@ cite img {
     padding-bottom: 3.5rem; }
   .popup__item {
     padding-top: 0; }
+  .popup__item:last-of-type {
+    padding-bottom: 60px; }
   .popup__item a:link {
+    display: block;
+    text-align: center;
     text-decoration: none;
     border: 1px solid #d59541;
     padding: 1.5rem;
-    border-radius: 1rem; }
+    border-radius: 1rem;
+    transition: all .5s; }
   .popup__item a:visited {
     color: #333; }
   .popup__item a:hover {
@@ -1516,9 +1521,11 @@ fieldset {
 .card-lesson {
   border: 1px solid white;
   background-color: #9762cc;
-  opacity: .7; }
+  opacity: .7;
+  border-radius: .4rem; }
   .card-lesson:hover {
-    background-color: #d59541; }
+    background-color: #d59541;
+    transition: all 1s; }
   .card-lesson__title {
     color: #fff;
     padding-top: 1.5rem; }
@@ -1527,14 +1534,31 @@ fieldset {
     padding-bottom: 1rem; }
   .card-lesson__content {
     color: #fff;
-    padding-bottom: 1.5rem; }
-
-.section-lessons a:link {
-  text-decoration: none; }
-
-button.button:hover {
-  border-bottom: green 1px solid;
-  color: white; }
+    padding-bottom: 1.5rem;
+    font-size: 1.8rem; }
+  .card-lesson a:link,
+  .card-lesson a:visited {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #663399;
+    font-size: 2rem;
+    border: 0.1rem solid #663399;
+    padding: .5rem 0;
+    text-align-last: center;
+    width: 100%;
+    border-radius: .4rem; }
+  .card-lesson a:hover {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #E64A19;
+    font-size: 2rem;
+    border: 1px solid #E64A19;
+    padding: .5rem 0;
+    text-align: center;
+    width: 100%;
+    transition: all .5s; }
 
 .cta-header {
   padding-top: 0;

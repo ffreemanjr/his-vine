@@ -13,7 +13,7 @@
   &__content {
     @include absCenter;
     max-height: 60rem;
-    width: 60%;
+    width: 50%;
     background-color: $color-primary-orange;
     box-shadow: 0 2rem 4rem rgba($color-black, .2);
     border-radius: .3rem;
@@ -71,7 +71,6 @@
   &__body {
     background-color: $color-white;
     color: $color-grey;
-    // margin: 6rem;
   }
 
   &__info,
@@ -88,17 +87,23 @@
     padding-top: 0;
   }
 
+  &__item:last-of-type {    
+    padding-bottom: 60px;
+  }
+
   &__item a:link  {
+    display: block;
+    text-align: center;
     text-decoration: none;
     border: 1px solid $color-primary-orange;
     padding: 1.5rem;  
     border-radius: 1rem;
-
+    transition: all .5s;
   }
 
   &__item a:visited {
     color: $color-grey; 
-}
+  }
 
   &__item a:hover {
     background-color: $color-primary-orange;
