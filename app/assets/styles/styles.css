@@ -1133,7 +1133,7 @@ cite img {
   margin: 0 auto;
   position: relative; }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] {
+#contact input[type="text"], #contact input[type="email"], #contact input[type="phone"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] {
   font: 400 2rem/2.4rem "Roboto", Helvetica, Arial, sans-serif; }
 
 #contact {
@@ -1160,14 +1160,14 @@ fieldset {
   padding: 0;
   width: 100%; }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+#contact input[type="text"], #contact input[type="email"], #contact input[type="phone"], #contact input[type="url"], #contact textarea {
   width: 100%;
   border: 1px solid #CCC;
   background: #FFF;
   margin: 0 0 5px;
   padding: 10px; }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="phone"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
@@ -1177,6 +1177,10 @@ fieldset {
   height: 20rem;
   max-width: 100%;
   resize: none; }
+
+.g-recaptcha {
+  padding-bottom: 1.6rem;
+  display: block; }
 
 #contact button[type="submit"] {
   cursor: pointer;
@@ -1579,6 +1583,9 @@ fieldset {
 #introduction,
 #treasures {
   border-radius: 3px; }
+
+.success {
+  margin-bottom: 6rem; }
 
 .worship-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/app/assets/img/worship.jpg"); }
