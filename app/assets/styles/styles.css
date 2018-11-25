@@ -1689,3 +1689,70 @@ fieldset {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+
+#call-to-action {
+  padding-bottom: 10rem;
+  background-color: #1E90FF;
+  color: #fff; }
+
+.need-prayer {
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+  height: 20rem;
+  text-align: center; }
+
+.prayer-request {
+  font-size: 3rem;
+  margin-bottom: 2rem; }
+  .prayer-request__info {
+    margin-bottom: 2rem; }
+
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center; }
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0; }
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 1.8rem; }
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: #35404F;
+  border: 1px solid #ddd;
+  color: white;
+  font-size: 2rem; }
+
+.form-inline button:hover {
+  background-color: #4169e1; }
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 2rem; }
+  #call-to-action {
+    padding-bottom: 20rem; }
+  .need-prayer {
+    height: 50rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem; }
+    .need-prayer__info {
+      width: 100%; }
+  /* Style the submit button */
+  .form-inline button {
+    margin: 2rem; }
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch; } }

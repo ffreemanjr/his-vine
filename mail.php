@@ -36,7 +36,6 @@ mail($to,$email_subject,$email_body,$headers);
 //Done. redirect to thank-you page.
 header('Location: contact.html');
 
-
 // Function to validate against any email injection attempts
 function IsInjected($str)
 {
