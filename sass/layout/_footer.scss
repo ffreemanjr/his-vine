@@ -19,8 +19,9 @@
   &__paragraph {
     color: $color-white;
 
+
     &--address {
-      text-indent: 15px;
+      text-indent: 3.2rem;
     }
   }
 
@@ -28,6 +29,15 @@
     color: white;
     text-decoration: none;
   }
+
+  &__icon {
+    margin-right: 1rem;
+  }
+
+  &__icon--combine {
+    margin-right: 1.5rem;
+  }
+
 }
 
 
