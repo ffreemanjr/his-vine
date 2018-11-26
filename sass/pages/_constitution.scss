@@ -1,0 +1,130 @@
+.constitution-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/app/assets/img/constitution.jpg');
+}
+
+.section-information {
+  background-color: $color-grey-light;
+  color: $color-grey;
+}
+
+.constitution-card {
+  border: 1px solid black;
+  border-radius: .4rem;
+
+  &__title {
+    background-color: $color-primary-purple-light;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    font-size: 1.8rem;
+  }
+
+ 
+
+  
+
+  
+
+  &__button a:hover  {
+    text-decoration: none;
+    font-size: 2rem;
+    color: $color-white;
+  }
+
+  &__button {
+    margin-top: 3rem;
+    border: 1px solid white;
+    border-radius: .4rem;
+    text-align-last: center;
+    line-height: 3;
+    background-color: $color-white;
+    color: $color-white;
+    cursor: pointer;
+  }
+
+  &__button:hover,
+  &__button:visited {
+    background-color: $color-primary-purple-light;
+    color: $color-white;
+  }
+
+&__button a:link,
+  &__button a:visited {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: $color-grey;
+  }
+}
+
+.section-bylaws {
+  background-color: $color-primary-brown;
+  color: $color-white;
+}
+
+.tabs .label-one {
+  background: $color-primary-purple;
+  color: $color-white;
+}
+
+.tabs input[type="radio"]:checked+label+.tabone {
+  background: $color-primary-purple;
+  color: $color-white;
+}
+
+.tabs input[type="radio"]:checked+label+.tabtwo {
+  background: $color-primary-red;
+  color: $color-white;
+}
+
+.tabs .label-two {
+  background: $color-primary-red;
+  color: $color-white;
+}
+
+.tabs input[type="radio"]:checked+label+.tabthree {
+  background: $color-blue-grey;
+  color: $color-white;
+}
+
+.tabs .label-three {
+  background: $color-blue-grey;
+  color: $color-white;
+}
+
+.tab__heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;  
+}
+
+.tab__info {
+    margin-bottom: 9rem;
+  }
+
+.tab__button {
+  border: 1px solid $color-white;
+  background-color: $color-primary-orange;
+  font-size: 1.8rem;
+  text-align-last: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.tab__button:hover {
+  opacity: .7;
+  color: white;
+}
+
+.tab__button a:link,
+.tab__button a:visited {
+  color: $color-white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+.tab__button a:hover {
+  color: $color-white;
+}
+

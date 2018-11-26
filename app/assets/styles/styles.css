@@ -1122,6 +1122,101 @@ cite img {
     text-transform: uppercase;
     cursor: pointer; }
 
+.constitution-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/constitution.jpg"); }
+
+.section-information {
+  background-color: #eee;
+  color: #333; }
+
+.constitution-card {
+  border: 1px solid black;
+  border-radius: .4rem; }
+  .constitution-card__title {
+    background-color: #9762cc;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .constitution-card__content {
+    font-size: 1.8rem; }
+  .constitution-card__button a:hover {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff; }
+  .constitution-card__button {
+    margin-top: 3rem;
+    border: 1px solid white;
+    border-radius: .4rem;
+    text-align-last: center;
+    line-height: 3;
+    background-color: #fff;
+    color: #fff;
+    cursor: pointer; }
+  .constitution-card__button:hover, .constitution-card__button:visited {
+    background-color: #9762cc;
+    color: #fff; }
+  .constitution-card__button a:link,
+  .constitution-card__button a:visited {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333; }
+
+.section-bylaws {
+  background-color: #644B46;
+  color: #fff; }
+
+.tabs .label-one {
+  background: #663399;
+  color: #fff; }
+
+.tabs input[type="radio"]:checked + label + .tabone {
+  background: #663399;
+  color: #fff; }
+
+.tabs input[type="radio"]:checked + label + .tabtwo {
+  background: #7A0010;
+  color: #fff; }
+
+.tabs .label-two {
+  background: #7A0010;
+  color: #fff; }
+
+.tabs input[type="radio"]:checked + label + .tabthree {
+  background: #35404F;
+  color: #fff; }
+
+.tabs .label-three {
+  background: #35404F;
+  color: #fff; }
+
+.tab__heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem; }
+
+.tab__info {
+  margin-bottom: 9rem; }
+
+.tab__button {
+  border: 1px solid #fff;
+  background-color: #d59541;
+  font-size: 1.8rem;
+  text-align-last: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
+
+.tab__button:hover {
+  opacity: .7;
+  color: white; }
+
+.tab__button a:link,
+.tab__button a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.4rem; }
+
+.tab__button a:hover {
+  color: #fff; }
+
 .contact-intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/app/assets/img/location.jpg"); }
 
