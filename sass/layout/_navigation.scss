@@ -42,7 +42,8 @@
   position: absolute;
   background-color: $color-primary-purple;
   border-radius: 0 0 .4rem .4rem;
-  list-style: none;
+	list-style: none;
+	z-index: 9999;
 
   &-item {
     min-width: 20rem;
@@ -63,3 +64,5 @@
 .submenu a:hover {
       background-color: $color-primary-orange;
     }
+
+	

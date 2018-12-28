@@ -892,7 +892,8 @@ cite img {
   position: absolute;
   background-color: #663399;
   border-radius: 0 0 .4rem .4rem;
-  list-style: none; }
+  list-style: none;
+  z-index: 9999; }
   .submenu-item {
     min-width: 20rem;
     border-top: 1px solid #9762cc; }
