@@ -1,35 +1,32 @@
-.branding {
-  height: 7rem;
-  float: left;
-  padding-left: 2rem;
-  padding-top: .3rem;
-}
-
 .main-nav {
+	display: flex;
+	justify-content: space-between;
   width: 100%;
-  height: 10rem;
+  height: 11rem;
   background-color: $color-primary-purple;
-
-  &__items {
-    float: right;
-  }
 
   &__nav-item:hover {
     background-color: $color-primary-orange;
   }
 
   &__nav-item {
-    float: left;
     list-style: none;
+		display: inline-block;
 
     & a {
       display: block;
       text-decoration: none;
       color: $color-white;
       font-size: 2rem;
-      padding: 4rem 2rem 1rem 1.4rem;
+      padding: 4rem 2rem 3.5rem 1.4rem;
     }
   }
+}
+
+.branding {
+  height: 10rem;
+  padding-left: 2rem;
+  padding-top: 1.2rem;
 }
 
 .active {
@@ -62,7 +59,7 @@
 }
 
 .submenu a:hover {
-      background-color: $color-primary-orange;
-    }
+  background-color: $color-primary-orange;
+}
 
 	
