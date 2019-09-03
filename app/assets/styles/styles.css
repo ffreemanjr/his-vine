@@ -907,6 +907,28 @@ cite img {
 .submenu a:hover {
   background-color: #d59541; }
 
+/* ============================= MEDIA QUERIES ====================================== */
+@media screen and (max-width: 1025px) {
+  .main-nav {
+    background-color: teal;
+    position: relative;
+    z-index: 1; }
+  .navbar-toggle {
+    display: inline-block; }
+  .branding {
+    height: 5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 2rem; }
+  .main-nav__items {
+    display: none; }
+    .main-nav__items__nav-items {
+      text-align-last: center;
+      margin: 1.5rem auto; }
+    .main-nav__items__nav-item--link {
+      display: block;
+      padding-bottom: 1rem; } }
+
 .main-footer {
   background-color: black;
   color: white;

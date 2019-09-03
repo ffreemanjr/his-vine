@@ -23,6 +23,9 @@
   }
 }
 
+
+
+
 .branding {
   height: 10rem;
   padding-left: 2rem;
@@ -62,4 +65,40 @@
   background-color: $color-primary-orange;
 }
 
-	
+/* ============================= MEDIA QUERIES ====================================== */
+@media screen and (max-width: 1025px) {
+  .main-nav {
+    background-color: teal;
+    position: relative;
+    z-index: 1;
+  }
+ 
+  .navbar-toggle {
+    display: inline-block;
+  }
+
+  .branding {
+    height: 5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 2rem;    
+  }
+
+  .main-nav__items {
+    display: none;
+
+    &__nav-items {
+      text-align-last: center;
+      margin: 1.5rem auto;
+    }
+
+    &__nav-item--link {
+      display:block;
+      padding-bottom: 1rem;
+    }
+  }
+
+  
+ 
+ 
+ }	

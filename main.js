@@ -1,3 +1,20 @@
+let mainNavItems = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+	mainNavItems.classList.toggle('active');
+	console.log(mainNavItems);
+});
+
+
+
+
+
+
+
+
+
+
 // var modalContent = document.querySelectorAll('.card-lesson');
 // var close = document.querySelector('.modal-content__close');
 // var backdrop = document.querySelector('.backdrop');

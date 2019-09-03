@@ -19,10 +19,15 @@
 <body>
   <header class="main-header">
     <nav class="main-nav">
-        <div class="brand-box"><img src="/app/assets/img/logo1.png" alt="HIS Vine logo" class="branding"></div>    
-        <ul class="main-nav__items">
-          <li class="main-nav__nav-item"><a href="index.html" class="active">Home</a></li>
-          <li class="main-nav__nav-item dropdown"><a href="#">About</a>
+      
+      <!-- RESPONSIVE NAVIGATION HEADER -->
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars fa-3x"></i>
+        </span>
+        <div class="brand-box"><a href="index.html"><img src="/app/assets/img/logo1.png" alt="HIS Vine logo" class="branding"></a></div>    
+        <ul class="main-nav__items" id="js-menu">
+          <li class="main-nav__nav-item"><a href="index.html" class="active main-nav__nav-item--link">Home</a></li>
+          <li class="main-nav__nav-item dropdown"><a main-nav__nav-item--link href="#">About</a>
             <ul class="submenu">
               <li class="submenu-item"><a href="freesda.html">Free SDA History</a></li>
               <li class="submenu-item"><a href="hisvinehistory.html">HIS Vine History</a></li>
@@ -31,7 +36,7 @@
               <li class="submenu-item"><a href="blog.html">Blog</a></li>
             </ul>
           </li>
-          <li class="main-nav__nav-item dropdown"><a href="#">Beliefs</a>
+          <li class="main-nav__nav-item dropdown"><a main-nav__nav-item--link href="#">Beliefs</a>
             <ul class="submenu">
               <li class="submenu-item"><a href="fundamental.html">Fundamental Truths</a></li>
               <li class="submenu-item"><a href="footprints.html">Biblical Footprints</a></li>
@@ -39,17 +44,17 @@
               <li class="submenu-item"><a href="banner.html">Banner Articles</a></li>
             </ul>
           </li>
-          <li class="main-nav__nav-item"><a href="worship.html">Worship</a></li>
-          <li class="main-nav__nav-item"><a href="tithe.html">Give Online</a></li>
-          <li class="main-nav__nav-item"><a href="study.html">Bible Study</a></li>
-          <li class="main-nav__nav-item"><a href="affiliations.html">Affiliations</a></li>
-          <li class="main-nav__nav-item dropdown"><a href="#">Media</a>
+          <li class="main-nav__nav-item"><a main-nav__nav-item--link href="worship.html">Worship</a></li>
+          <li class="main-nav__nav-item"><a main-nav__nav-item--link href="tithe.html">Give Online</a></li>
+          <li class="main-nav__nav-item"><a main-nav__nav-item--link href="study.html">Bible Study</a></li>
+          <li class="main-nav__nav-item"><a main-nav__nav-item--link href="affiliations.html">Affiliations</a></li>
+          <li class="main-nav__nav-item dropdown"><a main-nav__nav-item--link href="#">Media</a>
             <ul class="submenu">
               <li class="submenu-item"><a href="http://www.hisvinepublishing.com" target="blank">HIS Vine Publishing</a></li>
               <li class="submenu-item"><a href="https://www.youtube.com/user/HISVineFreeSDAChurch" target="blank">Video Archive</a></li>
             </ul>
           </li>
-          <li class="main-nav__nav-item"><a href="contact.html">Contact Us</a></li>
+          <li class="main-nav__nav-item"><a main-nav__nav-item--link href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
 
@@ -487,4 +492,5 @@
     </div>
   
 </body>
+<script src="main.js"></script>
 </html>
